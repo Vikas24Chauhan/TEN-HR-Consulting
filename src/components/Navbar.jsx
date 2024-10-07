@@ -170,7 +170,7 @@ function Navbar() {
                         )}
                     </div>
                     <div className="navbar-start">
-                        <a className="text-1xl md:text-2xl font-bold cursor-pointer">{t('Ten Recruitindo')}</a>
+                        <a className="text-1xl md:text-2xl font-bold cursor-pointer">{t('TEN HR Consulting')}</a>
                     </div>
 
                     <div className="navbar-end flex items-center">

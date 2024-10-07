@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: {
-      "Ten Recruitindo":"Ten Recruitindo",
+      "TEN HR Consulting":"TEN HR Consulting",
       "Services": "Services",
       "Pricing": "Pricing",
       "Resources": "Resources",
@@ -23,7 +23,7 @@ const resources = {
   },
   hi: {
     translation: {
-      "Ten Recruitindo":"दस रिक्रूटिंडो",
+      "TEN HR Consulting":"टेन एचआर कंसल्टिंग",
       "Services": "सेवाएँ",
       "Pricing": "मूल्य निर्धारण",
       "Resources": "संसाधन",
@@ -42,7 +42,7 @@ const resources = {
   },
   fr: {
     translation: {
-      "Ten Recruitindo":"Dix recrutements",
+      "TEN HR Consulting":"TEN Conseil RH",
       "Services": "Services",
       "Pricing": "Tarification",
       "Resources": "Ressources",
