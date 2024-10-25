@@ -6,6 +6,10 @@ import mainImage from "../../../assets/images/managed-services-image.webp";
 function ManagedServices() {
   const navigate = useNavigate(); // Hook to access the navigate function
 
+  const contactUsPage = () => {
+    navigate("/contactUs");
+  };
+
   const handleMoreResourcesClick = () => {
     navigate("/resources"); // Navigate to the resources page
   };
@@ -22,7 +26,9 @@ function ManagedServices() {
             manage all HR-related admin for your employees in Indonesia. All you
             need to do is manage the teams.
           </p>
-          <button className="btn-primary">Schedule Now</button>
+          <button className="btn-primary" onClick={contactUsPage}>
+            Schedule Now
+          </button>
         </div>
         <div className="image-container">
           <img src={mainImage} alt="Service illustration" />
@@ -64,7 +70,9 @@ function ManagedServices() {
         <div className="quote-content">
           <h3>Pricing</h3>
           <h2>Reach out for a quote for Managed Services</h2>
-          <button className="quote-btn">Schedule Now →</button>
+          <button className="quote-btn" onClick={contactUsPage}>
+            Schedule Now →
+          </button>
         </div>
         <div className="quote-description">
           <p>

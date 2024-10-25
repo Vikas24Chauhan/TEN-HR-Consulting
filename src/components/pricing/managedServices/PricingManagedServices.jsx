@@ -1,8 +1,12 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function PricingManagedServices() {
   const navigate = useNavigate(); // Hook to access the navigate function
+
+  const contactUsPage = () => {
+    navigate("/contactUs");
+  };
 
   const handleMoreResourcesClick = () => {
     navigate("/resources"); // Navigate to the resources page
@@ -13,13 +17,13 @@ function PricingManagedServices() {
       <section className="quote-section">
         <div className="quote-content">
           <h3>Pricing</h3>
-          <h2 className="quote-title">
-            Reach out for a quote for Managed Services
-          </h2>
-          <button className="quote-btn">Schedule Now →</button>
+          <h2>Reach out for a quote for Managed Services</h2>
+          <button className="quote-btn" onClick={contactUsPage}>
+            Schedule Now →
+          </button>
         </div>
-        <div>
-          <p className="quote-description">
+        <div className="quote-description">
+          <p>
             We need to deeply understand what you are trying to accomplish
             before sharing pricing. Please reach out to us to schedule time to
             connect, so we can better understand your needs. Once we have been
