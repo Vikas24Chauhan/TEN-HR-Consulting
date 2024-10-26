@@ -92,7 +92,10 @@ function Home() {
           <div className='content'>
             <div className='text-section'>
               <div className='avatar-section'>
-                <img src='/src/assets/images/icon-avatar.png' alt='Avatars' />
+                <img
+                  src='https://recruitindo.com/wp-content/uploads/2023/12/icon-ava.png'
+                  alt='Avatars'
+                />
                 <p>{t("Join over 250+ businesses that have grown with us")}</p>
               </div>
               <h1>{t("One platform for hiring Interns")}</h1>
@@ -316,7 +319,7 @@ function Home() {
             </div>
             <div className='partner-image-container'>
               <img
-                src='/src/assets/images/Expert-local-knowledge.jpeg'
+                src='https://recruitindo.com/wp-content/uploads/2023/12/Expert-local-knowledge.png'
                 alt='Expert local knowledge in Indonesia'
                 className='partner-image'
               />
@@ -326,7 +329,7 @@ function Home() {
           <div className='cost-content'>
             <div className='cost-image-container'>
               <img
-                src='/src/assets/images/cost-effective-solutions.jpg'
+                src='https://recruitindo.com/wp-content/uploads/2023/12/cost-effective-solutions.png'
                 alt='cost'
                 className='cost-image'
               />
@@ -360,7 +363,7 @@ function Home() {
             </div>
             <div className='compliance-image-container'>
               <img
-                src='/src/assets/images/compliance.jpeg'
+                src='https://recruitindo.com/wp-content/uploads/2023/12/compliance.png'
                 alt='Expert local knowledge in Indonesia'
                 className='partner-image'
               />
@@ -415,7 +418,7 @@ function Home() {
         </div>
 
         <img
-          src='/src/assets/images/one-stop-hr-services-for-your-business.jpeg'
+          src='https://recruitindo.com/wp-content/uploads/2023/12/one-stop-hr-services-for-your-business.png'
           alt='HR Service'
           className='one-stop-image'
         />
