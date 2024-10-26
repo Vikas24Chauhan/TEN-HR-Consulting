@@ -53,9 +53,9 @@ const Footer = () => {
   <br />
   <br />
   <li><a href="mailto:
-hr@entrepreneurshipnetwork.net">
-hr@entrepreneurshipnetwork.net</a></li>
-{/*   <li>+(62) 21 570-0415</li> */}
+info@recruitindo.com">
+info@recruitindo.com</a></li>
+  <li>+(62) 21 570-0415</li>
   <button><a href="https://www.linkedin.com/company/ten-hr-consulting/"> Follow Our Linkedin</a></button>
 </ul>
 
@@ -63,27 +63,6 @@ hr@entrepreneurshipnetwork.net</a></li>
 </div>
    </div>
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    </div>
    </>
   )
