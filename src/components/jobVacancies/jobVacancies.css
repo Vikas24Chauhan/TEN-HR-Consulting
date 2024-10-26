@@ -23,7 +23,7 @@
   color: #033658;
   font-weight: 800;
   font-size: 32px;
-  margin-left: -82%;
+ 
   margin-top: 2%;
   margin-bottom: 1%;
 }
@@ -248,10 +248,10 @@
   .job-text{
     margin-left: -180px !important;
 }
-.job-text h1{
+/* .job-text h1{
   margin-left: -70%;
 
-}
+} */
   .find-button {
     width: 66%;
 
@@ -278,9 +278,9 @@
     margin-left: -74px !important;
 
   }
-  .job-text h1 {
+  /* .job-text h1 {
     margin-left: -65%;
-  }
+  } */
 
   .job-apply {
     width: 568px;
@@ -311,9 +311,9 @@
   .job-text {
     margin-left: -17%;
   }
-  .job-text h1 {
+  /* .job-text h1 {
     margin-left: -32%;
-  }
+  } */
   .job-search {
     width: 98%;
   }
@@ -403,9 +403,9 @@
   .job-text {
     margin-left: -23% !important;
   }
-  .job-text h1 {
+  /* .job-text h1 {
     margin-left: -6% !important;
-  }
+  } */
   .job-apply {
     width: 308px !important;
     height: 402px;
