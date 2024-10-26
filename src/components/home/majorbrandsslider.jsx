@@ -5,22 +5,22 @@ import "./major.css";
 
 const MajorBrandsSlider = [
   {
-    image: "/src/assets/images/hanjin.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/hanjin.png",
   },
   {
-    image: "/src/assets/images/rakamin-akademy.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/rakamin-akademy.png",
   },
   {
-    image: "/src/assets/images/makerlab.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/makerlab.png",
   },
   {
-    image: "/src/assets/images/pvn.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/pvn.png",
   },
   {
-    image: "/src/assets/images/xmh.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/xmh.png",
   },
   {
-    image: "/src/assets/images/Lamont-capital.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/Lamont-capital.png",
   },
 ];
 
