@@ -173,28 +173,28 @@ export const jobPosts = [
       ],
     },
   },
-  {
-    jobHeading: "Senior Assistant and Chinese Translator",
-    jobcategory: "Translator",
-    jobName: "Senior Assistant and Chinese Translator",
-    jobLocation: "Jawa Tengah",
-    jobdegree: "Bachelor Degree",
-    jobSalary: "IDR 18,000,000",
-    JobList: {
-      jobHeading: "Senior Assistant and Chinese Translator",
-      jobcategory: "Translator",
-      jobName: "Senior Assistant and Chinese Translator",
-      jobLocation: "Jawa Tengah",
-      jobdegree: "Bachelor Degree",
-      jobSalary: "IDR 18,000,000",
-      JobDescription: [
+  // {
+  //   jobHeading: "Senior Assistant and Chinese Translator",
+  //   jobcategory: "Translator",
+  //   jobName: "Senior Assistant and Chinese Translator",
+  //   jobLocation: "Jawa Tengah",
+  //   jobdegree: "Bachelor Degree",
+  //   jobSalary: "IDR 18,000,000",
+  //   JobList: {
+  //     jobHeading: "Senior Assistant and Chinese Translator",
+  //     jobcategory: "Translator",
+  //     jobName: "Senior Assistant and Chinese Translator",
+  //     jobLocation: "Jawa Tengah",
+  //     jobdegree: "Bachelor Degree",
+  //     jobSalary: "IDR 18,000,000",
+  //     JobDescription: [
        
-      ],
-      Requirements: [
+  //     ],
+  //     Requirements: [
       
-      ],
-    },
-  },
+  //     ],
+  //   },
+  // },
   {
     jobHeading: "Marketing Director",
     jobcategory: "Marketing",
@@ -231,94 +231,94 @@ export const jobPosts = [
 ];
 
 export const Administration = [
-  {
-    jobHeading: "Senior Assistant and Chinese Translator",
-    jobcategory: "Translator",
-    jobName: "Senior Assistant and Chinese Translator",
-    jobLocation: "Jawa Tengah",
-    jobdegree: "Bachelor Degree",
-    jobSalary: "IDR 18,000,000",
-    JobList: {
-      jobHeading: "Senior Assistant and Chinese Translator",
-      jobcategory: "Translator",
-      jobName: "Senior Assistant and Chinese Translator",
-      jobLocation: "Jawa Tengah",
-      jobdegree: "Bachelor Degree",
-      jobSalary: "IDR 18,000,000",
+  // {
+  //   jobHeading: "Senior Assistant and Chinese Translator",
+  //   jobcategory: "Translator",
+  //   jobName: "Senior Assistant and Chinese Translator",
+  //   jobLocation: "Jawa Tengah",
+  //   jobdegree: "Bachelor Degree",
+  //   jobSalary: "IDR 18,000,000",
+  //   JobList: {
+  //     jobHeading: "Senior Assistant and Chinese Translator",
+  //     jobcategory: "Translator",
+  //     jobName: "Senior Assistant and Chinese Translator",
+  //     jobLocation: "Jawa Tengah",
+  //     jobdegree: "Bachelor Degree",
+  //     jobSalary: "IDR 18,000,000",
 
-      JobDescription: [
+  //     JobDescription: [
       
-      ],
-      Requirements: [
+  //     ],
+  //     Requirements: [
        
-      ],
-    },
-  },
-  {
-    jobHeading: "Mandarin Translator (SEMARANG)",
-    jobcategory: "Translator",
-    jobName: "Mandarin Translator (SEMARANG)",
-    jobLocation: "Jawa Tengah",
-    jobdegree: "Diploma/Bachelor Degree",
-    jobSalary: "IDR 15,000,000",
-    JobList: {
-      jobHeading: "Mandarin Translator (SEMARANG)",
-      jobcategory: "Translator",
-      jobName: "Mandarin Translator (SEMARANG)",
-      jobLocation: "Jawa Tengah",
-      jobdegree: "Diploma/Bachelor Degree",
-      jobSalary: "IDR 15,000,000",
-      JobDescription: [
-        "Membantu untuk melakukan penerjemah dalam komunikasi lapangan,komunikasi pekerjaan, dll yang berhubungan dengan penerjemah (office maupun lapangan)",
-        "Menyampaikan hal-hal penting dari pihak user kepada para pekerja yang bersangkutan",
-      ],
-      Requirements: [
-        "Pria",
-        "Usia: 18-35 Tahun",
-        "Pendidikan minimal D3/S1",
-        "Fasih berbahasa Mandarin Tulis dan Lisan serta berpengalaman sebagai Translator Mandarin minimal 2 tahun, memiliki sertifikat HSK5/HSK 6 lebih diutamakan",
-        "Penempatan di Semarang",
-      ],
-    },
-  },
-  {
-    jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
-    jobcategory: "Translator, Translator",
-    jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
-    jobLocation: "Semarang",
-    jobdegree: "Bachelor Degree",
-    jobSalary: "IDR 10,000,000 to IDR 12,000,000",
-    JobList: {
-      jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
-      jobcategory: "Translator, Translator",
-      jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
-      jobLocation: "Semarang",
-      jobdegree: "Bachelor Degree",
-      jobSalary: "IDR 10,000,000 to IDR 12,000,000",
-      JobDescription: [
-        "We are seeking a skilled and experienced Translator proficient in both Indonesian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from Indonesian to Chinese and vice versa. You will play a crucial role in facilitating communication between our Indonesian-speaking and Chinese-speaking clients, partners, and stakeholders.",
-      ],
-      Responsibilities: [
-        "Translate a wide range of documents including but not limited to business correspondence, legal documents, technical manuals, marketing materials, and website content.",
-        "Interpret conversations, meetings, and conferences accurately and in real-time. Ensure translations maintain the original meaning, style, and tone of the source material.",
-        "Collaborate with colleagues to ensure consistency and accuracy in translations across projects.",
-        "Conduct research as needed to ensure accuracy and relevance in specialised subject matters.",
-        "Proofread and edit translated materials to ensure high-quality output.",
-        "Maintain confidentiality and integrity in handling sensitive information.",
-      ],
-      Requirements: [
-        "Proficiency in both Indonesian and Chinese languages (written and spoken) is essential.",
-        "Proven experience as a Translator, Interpreter, or similar role, with a strong portfolio of past translations.",
-        "Excellent linguistic and cultural understanding of both Indonesian and Chinese languages.",
-        "Strong communication and interpersonal skills, with the ability to convey complex ideas accurately and effectively.",
-        "Attention to detail and accuracy in translations, with a commitment to delivering high-quality work within tight deadlines.",
-        "Familiarity with translation software and tools is preferred.",
-        "Bachelor’s degree in Translation, Linguistics, or a related field is preferred, but not mandatory.",
-        "Willingness to work flexible hours and adapt to changing priorities.",
-        "Cultural sensitivity and awareness, with the ability to navigate cross-cultural communication effectively.",
-      ],
-    },
-  },
+  //     ],
+  //   },
+  // },
+  // {
+  //   jobHeading: "Mandarin Translator (SEMARANG)",
+  //   jobcategory: "Translator",
+  //   jobName: "Mandarin Translator (SEMARANG)",
+  //   jobLocation: "Jawa Tengah",
+  //   jobdegree: "Diploma/Bachelor Degree",
+  //   jobSalary: "IDR 15,000,000",
+  //   JobList: {
+  //     jobHeading: "Mandarin Translator (SEMARANG)",
+  //     jobcategory: "Translator",
+  //     jobName: "Mandarin Translator (SEMARANG)",
+  //     jobLocation: "Jawa Tengah",
+  //     jobdegree: "Diploma/Bachelor Degree",
+  //     jobSalary: "IDR 15,000,000",
+  //     JobDescription: [
+  //       "Membantu untuk melakukan penerjemah dalam komunikasi lapangan,komunikasi pekerjaan, dll yang berhubungan dengan penerjemah (office maupun lapangan)",
+  //       "Menyampaikan hal-hal penting dari pihak user kepada para pekerja yang bersangkutan",
+  //     ],
+  //     Requirements: [
+  //       "Pria",
+  //       "Usia: 18-35 Tahun",
+  //       "Pendidikan minimal D3/S1",
+  //       "Fasih berbahasa Mandarin Tulis dan Lisan serta berpengalaman sebagai Translator Mandarin minimal 2 tahun, memiliki sertifikat HSK5/HSK 6 lebih diutamakan",
+  //       "Penempatan di Semarang",
+  //     ],
+  //   },
+  // },
+  // {
+  //   jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //   jobcategory: "Translator, Translator",
+  //   jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //   jobLocation: "Semarang",
+  //   jobdegree: "Bachelor Degree",
+  //   jobSalary: "IDR 10,000,000 to IDR 12,000,000",
+  //   JobList: {
+  //     jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //     jobcategory: "Translator, Translator",
+  //     jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //     jobLocation: "Semarang",
+  //     jobdegree: "Bachelor Degree",
+  //     jobSalary: "IDR 10,000,000 to IDR 12,000,000",
+  //     JobDescription: [
+  //       "We are seeking a skilled and experienced Translator proficient in both Indonesian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from Indonesian to Chinese and vice versa. You will play a crucial role in facilitating communication between our Indonesian-speaking and Chinese-speaking clients, partners, and stakeholders.",
+  //     ],
+  //     Responsibilities: [
+  //       "Translate a wide range of documents including but not limited to business correspondence, legal documents, technical manuals, marketing materials, and website content.",
+  //       "Interpret conversations, meetings, and conferences accurately and in real-time. Ensure translations maintain the original meaning, style, and tone of the source material.",
+  //       "Collaborate with colleagues to ensure consistency and accuracy in translations across projects.",
+  //       "Conduct research as needed to ensure accuracy and relevance in specialised subject matters.",
+  //       "Proofread and edit translated materials to ensure high-quality output.",
+  //       "Maintain confidentiality and integrity in handling sensitive information.",
+  //     ],
+  //     Requirements: [
+  //       "Proficiency in both Indonesian and Chinese languages (written and spoken) is essential.",
+  //       "Proven experience as a Translator, Interpreter, or similar role, with a strong portfolio of past translations.",
+  //       "Excellent linguistic and cultural understanding of both Indonesian and Chinese languages.",
+  //       "Strong communication and interpersonal skills, with the ability to convey complex ideas accurately and effectively.",
+  //       "Attention to detail and accuracy in translations, with a commitment to delivering high-quality work within tight deadlines.",
+  //       "Familiarity with translation software and tools is preferred.",
+  //       "Bachelor’s degree in Translation, Linguistics, or a related field is preferred, but not mandatory.",
+  //       "Willingness to work flexible hours and adapt to changing priorities.",
+  //       "Cultural sensitivity and awareness, with the ability to navigate cross-cultural communication effectively.",
+  //     ],
+    // },
+  // },
   {
     jobHeading: "Administrative Assistant",
     jobcategory: "Administration",
