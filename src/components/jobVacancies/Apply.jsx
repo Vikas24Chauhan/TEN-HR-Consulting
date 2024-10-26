@@ -1,17 +1,23 @@
-
 import React, { useEffect, useState } from 'react';
 import "./Apply.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { countryCodes } from './constant'; // Assuming you have a file that exports country codes
 
 const Apply = () => {
   const location = useLocation();
-  const navigate = useNavigate(); // Added to navigate back to job list
+  const navigate = useNavigate(); 
   const [jobDataInfo, setJobDataInfo] = useState({});
   const [result, setResult] = useState("");
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedCode, setSelectedCode] = useState("");
+  const [selectedCode, setSelectedCode] = useState("+91 IN"); 
+  const countryCodes = [
+    { code: "+93", label: "AF" },
+    { code: "+355", label: "AL" },
+    { code: "+213", label: "DZ" },
+    { code: "+1", label: "AS" },
+    { code: "+91", label: "IN" },
+
+  ];
 
   useEffect(() => {
     const storedData = JSON.parse(localStorage.getItem('Selected'));
@@ -28,8 +34,8 @@ const Apply = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleSelect = (code, abbreviation) => {
-    setSelectedCode(`${code} ${abbreviation}`);
+  const handleSelect = (code, label) => {
+    setSelectedCode(`${code} ${label}`);
     setIsOpen(false);
   };
 
@@ -38,7 +44,7 @@ const Apply = () => {
     setResult("Sending...");
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "ef7d6db9-5581-4525-b98a-ca42fb0056f4"); // Your actual access key
+    formData.append("access_key", "7bec698f-2a32-4864-8391-8b7985e04256"); 
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -50,7 +56,7 @@ const Apply = () => {
 
       if (data.success) {
         setResult("Form Submitted Successfully");
-        event.target.reset(); // Reset the form fields
+        event.target.reset(); 
       } else {
         console.error("Error:", data);
         setResult(data.message || "An error occurred. Please try again.");
@@ -60,7 +66,6 @@ const Apply = () => {
       setResult("There was an error submitting the form. Please try again.");
     }
   };
-
   return (
     <div>
       <div className='job-list'>
@@ -160,8 +165,6 @@ const Apply = () => {
 
           </div>
 
-
-
           <div className='qualification'>
             {jobDataInfo?.JobList?.Qualifications?.length > 0 && (
               <>
@@ -174,9 +177,6 @@ const Apply = () => {
               </>
             )}
           </div>
-
-
-
           <div className='job-deatils-heading'>
             <h3 className='Job-headng-requirements'>Requirements :</h3>
           </div>
@@ -196,40 +196,39 @@ const Apply = () => {
 
         {/* Form */}
         <div className='p-8 job-apply-form'>
-      <form onSubmit={onSubmit}>
-        <div className='input-first-last-name'>
-          <div className='input-group'>
-            <label className='required-field'>First Name</label>
-            <input className='input-name' type="text" name="firstName" placeholder='John' required />
+       <form onSubmit={onSubmit}>
+         <div className='input-first-last-name'>
+           <div className='input-group'>
+             <label className='required-field'>First Name</label>
+             <input className='input-name' type="text" name="firstName" placeholder='John' required />
+           </div>
+           <div className='input-group'>
+             <label className='required-field'>Last Name</label>
+             <input className='input-name' type="text" name="lastName" placeholder='Doe' required />
           </div>
-          <div className='input-group'>
-            <label className='required-field'>Last Name</label>
-            <input className='input-name' type="text" name="lastName" placeholder='Doe' required />
-          </div>
-        </div>
-        <div className='email-container'>
-          <div className='label-row'>
-            <label className='required-field'>Email</label>
-          </div>
+         </div>
+         <div className='email-container'>
+           <div className='label-row'>
+             <label className='required-field'>Email</label>
+           </div>
           <div className='input-row'>
-            <input className='Email' type="email" name="email" placeholder='Email' required />
-          </div>
-        </div>
-
+             <input className='Email' type="email" name="email" placeholder='Email' required />
+           </div>
+         </div>
         <div className='d-flex Contact-div'>
           <div className='country'>
-            <label className='required-field'>Country Code</label>
-            <div className="dropdown-container" onClick={toggleDropdown}>
-              <input className='input-contact' type="text" value={selectedCode} required readOnly />
-              <svg aria-hidden="true" className="e-font-icon-svg e-eicon-caret-down drop-down-icon" viewBox="0 0 571.4 571.4" xmlns="http://www.w3.org/2000/svg">
-                <path d="M571 393Q571 407 561 418L311 668Q300 679 286 679T261 668L11 418Q0 407 0 393T11 368 36 357H536Q550 357 561 368T571 393Z"></path>
-              </svg>
-            </div>
-            {isOpen && (
+             <label className='required-field'>Country Code</label>
+             <div className="dropdown-container" onClick={toggleDropdown}>
+               <input className='input-contact' type="text" value={selectedCode} required readOnly />
+               <svg aria-hidden="true" className="e-font-icon-svg e-eicon-caret-down drop-down-icon" viewBox="0 0 571.4 571.4" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M571 393Q571 407 561 418L311 668Q300 679 286 679T261 668L11 418Q0 407 0 393T11 368 36 357H536Q550 357 561 368T571 393Z"></path>
+               </svg>
+             </div>
+             {isOpen && (
               <div className="dropdown-list">
                 {countryCodes.map((country, index) => (
-                  <div key={index} className="dropdown-item" onClick={() => handleSelect(country.code, country.abbreviation)}>
-                    {country.flag} {country.code} ({country.abbreviation})
+                  <div key={index} className="dropdown-item" onClick={() => handleSelect(country.code, country.label)}>
+                    {country.code} ({country.label})
                   </div>
                 ))}
               </div>
@@ -247,7 +246,7 @@ const Apply = () => {
           <input className='current-company' type="text" name="currentCompany" />
         </div>
 
-        {/* Upload Instruction */}
+        
         <div>
           <label className='required-field'>Upload CV</label>
           <p>Please upload your CV to a cloud service (e.g., Google Drive or Dropbox) and paste the link here:</p>
@@ -262,11 +261,12 @@ const Apply = () => {
       <span>{result}</span>
     </div>
 
-
       </div>
     </div>
   )
 }
 
 export default Apply;
+
+
 

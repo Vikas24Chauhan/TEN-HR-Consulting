@@ -346,13 +346,13 @@ ul.custom-list-point li::before {
   border-color: #e3e3e3;
 }
 
-.choose-file-input {
+/* .choose-file-input {
   border: none;
   padding: 0;
   outline: none;
   font-size: 14px;
   color: #033658;
-}
+} */
 
 .choose-file-input::-webkit-file-upload-button {
   background-color: #ffbd59;
@@ -383,6 +383,20 @@ ul.custom-list-point li::before {
   font-size: 14px;
   border-radius: 5px;
 }
+
+.choose-file-input {
+  width: 101%;
+  height: 45px;
+  border: 2px solid #e3e3e3;
+  border-radius: 4px 4px 4px 4px;
+  
+}
+
+/* .choose-file-input:focus {
+  outline: none; 
+  border-color:  #ffbd59; 
+  box-shadow: 0 0 5px  #ffbd59; 
+} */
 
 .choose-file-input::file-selector-button:hover {
   background-color: #02213e;
