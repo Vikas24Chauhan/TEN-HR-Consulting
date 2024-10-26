@@ -47,7 +47,7 @@ Monday – Friday | 9 AM – 6 PM
 Contact
 <br />
 <br />
-Email: info@recruitindo.com Telephone: +(62) 21 570-0415 WhatsApp (chat only): +62 811 888 000 64
+Email:hr@entrepreneurshipnetwork.net
 </div>
 
 
