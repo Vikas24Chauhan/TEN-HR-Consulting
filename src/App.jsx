@@ -25,12 +25,14 @@ import PricingPayrollProcessing from "./components/pricing/payrollProcessing/Pri
 import JobVacancies from "./components/jobVacancies/jobVacancies";
 import Apply from "./components/jobVacancies/Apply";
 import ContactForm from "./components/Contact/ContactForm";
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <I18nextProvider i18n={i18n}>
         <BrowserRouter>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
