@@ -31,7 +31,7 @@ function HrConsulting() {
           <h1>{t("HR Consulting for Statutory Compliance")}</h1>
           <p>
             {t(
-              "Our HR consulting business is focused on ensuring statutory compliance for your operations in Indonesia. We ensure our clients are 100% compliant from an HR perspective."
+              "Our HR consulting business is focused on ensuring statutory compliance for your operations in India. We ensure our clients are 100% compliant from an HR perspective."
             )}
           </p>
 
@@ -110,7 +110,7 @@ function HrConsulting() {
         </div>
 
         <img
-          src="/src/assets/images/one-stop-hr-services-for-your-business.jpeg"
+          src="https://recruitindo.com/wp-content/uploads/2023/12/one-stop-hr-services-for-your-business.png"
           alt={t("HR Service")}
           className="one-stop-image"
         />
@@ -159,10 +159,10 @@ function HrConsulting() {
               className="article-image"
             />
             <h3 className="article-title">
-              Maximizing Talent Acquisition in Indonesia: A Comprehensive Guide
+              Maximizing Talent Acquisition in India: A Comprehensive Guide
             </h3>
             <p className="article-description">
-              Learn key strategies for acquiring top talent in Indonesia, from
+              Learn key strategies for acquiring top talent in India, from
               recruitment tips to navigating local hiring practices.
             </p>
           </div>
@@ -173,11 +173,11 @@ function HrConsulting() {
               className="article-image"
             />
             <h3 className="article-title">
-              Ensuring HR Compliance in Indonesia: What You Need to Know
+              Ensuring HR Compliance in India: What You Need to Know
             </h3>
             <p className="article-description">
               Discover the essential steps businesses must take to remain
-              compliant with Indonesia's labor laws and regulations.
+              compliant with India's labor laws and regulations.
             </p>
           </div>
           <div className="article">
