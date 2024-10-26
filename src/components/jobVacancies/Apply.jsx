@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import "./Apply.css"
-import 'bootstrap/dist/css/bootstrap.min.css'
+
+import React, { useEffect, useState } from 'react';
+import "./Apply.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { countryCodes } from './constant';
+import { countryCodes } from './constant'; // Assuming you have a file that exports country codes
 
 const Apply = () => {
-
-  const navigate = useNavigate()
   const location = useLocation();
-  const [jobDataInfo, setJobDataInfo] = useState({})
-
+  const navigate = useNavigate(); // Added to navigate back to job list
+  const [jobDataInfo, setJobDataInfo] = useState({});
+  const [result, setResult] = useState("");
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedCode, setSelectedCode] = useState("");
 
   useEffect(() => {
     const storedData = JSON.parse(localStorage.getItem('Selected'));
@@ -18,16 +20,9 @@ const Apply = () => {
     if (jobDataFromState) {
       setJobDataInfo(jobDataFromState);
     } else {
-
       console.error('No job data available in state or localStorage');
     }
   }, [location]);
-
-
-
-
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedCode, setSelectedCode] = useState("");
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -38,7 +33,33 @@ const Apply = () => {
     setIsOpen(false);
   };
 
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending...");
 
+    const formData = new FormData(event.target);
+    formData.append("access_key", "ef7d6db9-5581-4525-b98a-ca42fb0056f4"); // Your actual access key
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult("Form Submitted Successfully");
+        event.target.reset(); // Reset the form fields
+      } else {
+        console.error("Error:", data);
+        setResult(data.message || "An error occurred. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setResult("There was an error submitting the form. Please try again.");
+    }
+  };
 
   return (
     <div>
@@ -175,72 +196,72 @@ const Apply = () => {
 
         {/* Form */}
         <div className='p-8 job-apply-form'>
-          <div className='input-first-last-name'>
-            <div className='input-group'>
-              <label className='required-field'>First Name</label>
-              <input className='input-name' type="text" placeholder='John' required />
-            </div>
-            <div className='input-group'>
-              <label className='required-field'>Last Name</label>
-              <input className='input-name' type="text" placeholder='Doe' required />
-            </div>
+      <form onSubmit={onSubmit}>
+        <div className='input-first-last-name'>
+          <div className='input-group'>
+            <label className='required-field'>First Name</label>
+            <input className='input-name' type="text" name="firstName" placeholder='John' required />
           </div>
-          <div className='email-container'>
-            <div className='label-row'>
-              <label className='required-field'>Email</label>
-            </div>
-            <div className='input-row'>
-              <input className='Email' type="email" placeholder='Email' required />
-            </div>
-          </div>
-
-          {/* number */}
-
-          <div className='d-flex Contact-div'>
-            <div className='country'>
-              <label className='required-field'>Country Code</label>
-              <div className="dropdown-container" onClick={toggleDropdown}>
-                <input className='input-contact' type="text" value={selectedCode} required />
-                <svg aria-hidden="true" className="e-font-icon-svg e-eicon-caret-down drop-down-icon" viewBox="0 0 571.4 571.4" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M571 393Q571 407 561 418L311 668Q300 679 286 679T261 668L11 418Q0 407 0 393T11 368 36 357H536Q550 357 561 368T571 393Z"></path>
-                </svg>
-              </div>
-              {isOpen && (
-                <div className="dropdown-list">
-                  {countryCodes.map((country, index) => (
-                    <div key={index} className="dropdown-item" onClick={() => handleSelect(country.code, country.abbreviation)}>
-                      {country.flag} {country.code} ({country.abbreviation})
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <div className='Telephone'>
-              <label className='required-field'>Personal Telephone</label>
-              <input className='input-telephone' type="text" required />
-            </div>
-          </div>
-
-
-          <div className='current-div'>
-            <label>Current Company (Optional)</label>
-            <input className='current-company' type="text" />
-          </div>
-
-          {/* Upload */}
-          <div>
-            <label className='required-field'>Upload CV</label>
-            <div className='choose-file'>
-              <input className='choose-file-input' type='file' required />
-            </div>
-          </div>
-
-          {/* Submit */}
-          <div className='submit-div'>
-            <button className='submit'>Submit Enquiry</button>
+          <div className='input-group'>
+            <label className='required-field'>Last Name</label>
+            <input className='input-name' type="text" name="lastName" placeholder='Doe' required />
           </div>
         </div>
+        <div className='email-container'>
+          <div className='label-row'>
+            <label className='required-field'>Email</label>
+          </div>
+          <div className='input-row'>
+            <input className='Email' type="email" name="email" placeholder='Email' required />
+          </div>
+        </div>
+
+        <div className='d-flex Contact-div'>
+          <div className='country'>
+            <label className='required-field'>Country Code</label>
+            <div className="dropdown-container" onClick={toggleDropdown}>
+              <input className='input-contact' type="text" value={selectedCode} required readOnly />
+              <svg aria-hidden="true" className="e-font-icon-svg e-eicon-caret-down drop-down-icon" viewBox="0 0 571.4 571.4" xmlns="http://www.w3.org/2000/svg">
+                <path d="M571 393Q571 407 561 418L311 668Q300 679 286 679T261 668L11 418Q0 407 0 393T11 368 36 357H536Q550 357 561 368T571 393Z"></path>
+              </svg>
+            </div>
+            {isOpen && (
+              <div className="dropdown-list">
+                {countryCodes.map((country, index) => (
+                  <div key={index} className="dropdown-item" onClick={() => handleSelect(country.code, country.abbreviation)}>
+                    {country.flag} {country.code} ({country.abbreviation})
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <div className='Telephone'>
+            <label className='required-field'>Personal Telephone</label>
+            <input className='input-telephone' type="text" name="telephone" required />
+          </div>
+        </div>
+
+        <div className='current-div'>
+          <label>Current Company (Optional)</label>
+          <input className='current-company' type="text" name="currentCompany" />
+        </div>
+
+        {/* Upload Instruction */}
+        <div>
+          <label className='required-field'>Upload CV</label>
+          <p>Please upload your CV to a cloud service (e.g., Google Drive or Dropbox) and paste the link here:</p>
+          <input className='choose-file-input' type='url' name="cvLink" placeholder='CV Link' required />
+        </div>
+
+        {/* Submit */}
+        <div className='submit-div'>
+          <button className='submit' type="submit">Submit Enquiry</button>
+        </div>
+      </form>
+      <span>{result}</span>
+    </div>
+
 
       </div>
     </div>
@@ -248,3 +269,4 @@ const Apply = () => {
 }
 
 export default Apply;
+
