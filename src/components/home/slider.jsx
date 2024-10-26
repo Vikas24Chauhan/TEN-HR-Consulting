@@ -4,14 +4,14 @@ import { useTranslation } from "react-i18next";
 
 const slider = [
   {
-    image: "/src/assets/images/peo-eor.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/peo-eor.jpeg",
     title: "PEO & EOR",
     description:
       "Ten Hr consulting is a leading Professional Employer Organization (PEO), Recruitment, and HR consulting firm in Indonesia.",
     learnMoreLink: "http://localhost:5173/services/peo&eor",
   },
   {
-    image: "/src/assets/images/recruitment.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/recruitment.jpeg",
     title: "Recruitment",
     description:
       "We provide top-tier recruitment services to find the best talent for your business.",
@@ -20,7 +20,7 @@ const slider = [
     learnMoreLink: "http://localhost:5173/services/recruitment",
   },
   {
-    image: "/src/assets/images/hr-consulting.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/hr-consulting.jpeg",
     title: "HR Consulting",
     description:
       "Our HR consulting services help you streamline your HR processes and improve employee engagement.",
@@ -28,7 +28,7 @@ const slider = [
     learnMoreLink: "http://localhost:5173/services/hrConsulting",
   },
   {
-    image: "/src/assets/images/managed-services.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/managed-services.jpeg",
     title: "Managed Services",
     description:
       "We offer comprehensive managed services to optimize your HR functions.",
@@ -36,7 +36,7 @@ const slider = [
     learnMoreLink: "http://localhost:5173/services/managedServices", // Added link for managed services
   },
   {
-    image: "/src/assets/images/payroll-procesing.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/payroll-procesing.jpeg",
     title: "Payroll Processing",
     description:
       "Let us handle your payroll processing to ensure accuracy and compliance.",
