@@ -11,12 +11,123 @@ const Apply = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedCode, setSelectedCode] = useState("+91 IN"); 
   const countryCodes = [
-    { code: "+93", label: "AF" },
-    { code: "+355", label: "AL" },
-    { code: "+213", label: "DZ" },
-    { code: "+1", label: "AS" },
-    { code: "+91", label: "IN" },
-
+    { code: "+93", label: "AF" }, // Afghanistan
+        { code: "+355", label: "AL" }, // Albania
+        { code: "+213", label: "DZ" }, // Algeria
+        { code: "+1", label: "AS" }, // American Samoa
+        { code: "+376", label: "AD" }, // Andorra
+        { code: "+244", label: "AO" }, // Angola
+        { code: "+1-264", label: "AI" }, // Anguilla
+        { code: "+672", label: "AQ" }, // Antarctica
+        { code: "+1-268", label: "AG" }, // Antigua and Barbuda
+        { code: "+54", label: "AR" }, // Argentina
+        { code: "+374", label: "AM" }, // Armenia
+        { code: "+297", label: "AW" }, // Aruba
+        { code: "+61", label: "AU" }, // Australia
+        { code: "+43", label: "AT" }, // Austria
+        { code: "+994", label: "AZ" }, // Azerbaijan
+        { code: "+1-242", label: "BS" }, // Bahamas
+        { code: "+973", label: "BH" }, // Bahrain
+        { code: "+880", label: "BD" }, // Bangladesh
+        { code: "+1-246", label: "BB" }, // Barbados
+        { code: "+375", label: "BY" }, // Belarus
+        { code: "+32", label: "BE" }, // Belgium
+        { code: "+501", label: "BZ" }, // Belize
+        { code: "+229", label: "BJ" }, // Benin
+        { code: "+1-441", label: "BM" }, // Bermuda
+        { code: "+975", label: "BT" }, // Bhutan
+        { code: "+591", label: "BO" }, // Bolivia
+        { code: "+387", label: "BA" }, // Bosnia and Herzegovina
+        { code: "+267", label: "BW" }, // Botswana
+        { code: "+55", label: "BR" }, // Brazil
+        { code: "+246", label: "IO" }, // British Indian Ocean Territory
+        { code: "+1-284", label: "VG" }, // British Virgin Islands
+        { code: "+673", label: "BN" }, // Brunei
+        { code: "+359", label: "BG" }, // Bulgaria
+        { code: "+226", label: "BF" }, // Burkina Faso
+        { code: "+257", label: "BI" }, // Burundi
+        { code: "+855", label: "KH" }, // Cambodia
+        { code: "+237", label: "CM" }, // Cameroon
+        { code: "+1", label: "CA" }, // Canada
+        { code: "+238", label: "CV" }, // Cape Verde
+        { code: "+599", label: "CW" }, // Curaçao
+        { code: "+61", label: "CX" }, // Christmas Island
+        { code: "+61", label: "CC" }, // Cocos (Keeling) Islands
+        { code: "+57", label: "CO" }, // Colombia
+        { code: "+269", label: "KM" }, // Comoros
+        { code: "+243", label: "CD" }, // Congo (Kinshasa)
+        { code: "+242", label: "CG" }, // Congo (Brazzaville)
+        { code: "+682", label: "CK" }, // Cook Islands
+        { code: "+506", label: "CR" }, // Costa Rica
+        { code: "+225", label: "CI" }, // Côte d'Ivoire
+        { code: "+385", label: "HR" }, // Croatia
+        { code: "+53", label: "CU" }, // Cuba
+        { code: "+357", label: "CY" }, // Cyprus
+        { code: "+420", label: "CZ" }, // Czech Republic
+        { code: "+45", label: "DK" }, // Denmark
+        { code: "+253", label: "DJ" }, // Djibouti
+        { code: "+1-767", label: "DM" }, // Dominica
+        { code: "+1-809", label: "DO" }, // Dominican Republic
+        { code: "+670", label: "TL" }, // East Timor
+        { code: "+593", label: "EC" }, // Ecuador
+        { code: "+20", label: "EG" }, // Egypt
+        { code: "+503", label: "SV" }, // El Salvador
+        { code: "+240", label: "GQ" }, // Equatorial Guinea
+        { code: "+291", label: "ER" }, // Eritrea
+        { code: "+372", label: "EE" }, // Estonia
+        { code: "+268", label: "SZ" }, // Eswatini
+        { code: "+251", label: "ET" }, // Ethiopia
+        { code: "+500", label: "FK" }, // Falkland Islands
+        { code: "+298", label: "FO" }, // Faroe Islands
+        { code: "+679", label: "FJ" }, // Fiji
+        { code: "+358", label: "FI" }, // Finland
+        { code: "+33", label: "FR" }, // France
+        { code: "+594", label: "GF" }, // French Guiana
+        { code: "+689", label: "PF" }, // French Polynesia
+        { code: "+241", label: "GA" }, // Gabon
+        { code: "+220", label: "GM" }, // Gambia
+        { code: "+995", label: "GE" }, // Georgia
+        { code: "+49", label: "DE" }, // Germany
+        { code: "+233", label: "GH" }, // Ghana
+        { code: "+350", label: "GI" }, // Gibraltar
+        { code: "+30", label: "GR" }, // Greece
+        { code: "+299", label: "GL" }, // Greenland
+        { code: "+1-473", label: "GD" }, // Grenada
+        { code: "+590", label: "GP" }, // Guadeloupe
+        { code: "+1-671", label: "GU" }, // Guam
+        { code: "+502", label: "GT" }, // Guatemala
+        { code: "+44-1481", label: "GG" }, // Guernsey
+        { code: "+224", label: "GN" }, // Guinea
+        { code: "+245", label: "GW" }, // Guinea-Bissau
+        { code: "+592", label: "GY" }, // Guyana
+        { code: "+509", label: "HT" }, // Haiti
+        { code: "+504", label: "HN" }, // Honduras
+        { code: "+852", label: "HK" }, // Hong Kong
+        { code: "+36", label: "HU" }, // Hungary
+        { code: "+354", label: "IS" }, // Iceland
+        { code: "+91", label: "IN" }, // India
+        { code: "+62", label: "ID" }, // Indonesia
+        { code: "+98", label: "IR" }, // Iran
+        { code: "+964", label: "IQ" }, // Iraq
+        { code: "+353", label: "IE" }, // Ireland
+        { code: "+44-1624", label: "IM" }, // Isle of Man
+        { code: "+972", label: "IL" }, // Israel
+        { code: "+39", label: "IT" }, // Italy
+        { code: "+1-876", label: "JM" }, // Jamaica
+        { code: "+81", label: "JP" }, // Japan
+        { code: "+44-1534", label: "JE" }, // Jersey
+        { code: "+962", label: "JO" }, // Jordan
+        { code: "+7", label: "KZ" }, // Kazakhstan
+        { code: "+254", label: "KE" }, // Kenya
+        { code: "+686", label: "KI" }, // Kiribati
+        { code: "+383", label: "XK" }, // Kosovo
+        { code: "+965", label: "KW" }, // Kuwait
+        { code: "+996", label: "KG" }, // Kyrgyzstan
+        { code: "+856", label: "LA" }, // Laos
+        { code: "+371", label: "LV" }, // Latvia
+        { code: "+961", label: "LB" }, // Lebanon
+        { code: "+266", label: "LS" }, // Lesotho
+        { code: "+231", label: "LR" }
   ];
 
   useEffect(() => {
