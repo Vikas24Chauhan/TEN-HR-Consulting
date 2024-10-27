@@ -176,7 +176,7 @@ function PeoEor() {
                     " "
                   ) : (
                     <>
-                      ,{" "}
+                      {" "}
                       <button className="peo-resources-btn">
                         {ele.resources}
                       </button>
