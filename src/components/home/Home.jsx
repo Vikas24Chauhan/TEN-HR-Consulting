@@ -343,7 +343,7 @@ function Home() {
               </div>
               <p className='cost-description'>
                 {t(
-                  "Avoid the big expenses and long waits that come with starting a new company in Indonesia. With our help, you can get to work quickly and cut down on legal and setup costs. Put your money and effort into growing your business instead of getting tangled up in complicated paperwork."
+                  "Avoid the big expenses and long waits that come with starting a new company in Indonesia. With our help, you can get to work quickly and cut down on legal and setup costs. Put your price and effort into growing your business instead of getting tangled up in complicated paperwork."
                 )}{" "}
               </p>
             </div>
@@ -377,7 +377,7 @@ function Home() {
           <h2>{t("One-stop HR Service For Your Business")}</h2>
           <p className='one-stop-description'>
             {t(
-              " HR Consulting now assists you in providing HR Management services starting from PEO services. Our fees are competitively priced, saving you money compared to other service providers. We don’t just offer company incorporation HR services; we are your business partner."
+              " HR Consulting now assists you in providing HR Management services starting from PEO services. Our fees are competitively priced, saving you price compared to other service providers. We don’t just offer company incorporation HR services; we are your business partner."
             )}{" "}
           </p>
 

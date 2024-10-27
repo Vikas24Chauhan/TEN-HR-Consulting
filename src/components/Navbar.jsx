@@ -299,7 +299,7 @@ const Navbar = ({ isSidebarOpen, handleToggleSidebar }) => {
               )}
             </div> */}
             <NavLink
-            to="/jobVacancies"
+            to="https://jobs.entrepreneurshipnetwork.net/"
             className={({ isActive }) =>
               `btn btn-warning text-black-300 hover:bg-warning-600 hover:text-white rounded-md text-sm font-small cursor-pointer ${isActive ? 'bg-warning-600 text-white' : ''}`
             }

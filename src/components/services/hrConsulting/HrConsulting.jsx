@@ -75,7 +75,7 @@ function HrConsulting() {
           <h2>{t("One-stop HR Service For Your Business")}</h2>
           <p className="one-stop-description">
             {t(
-              "HR Consulting now assists you in providing HR Management services starting from PEO services. Our fees are competitively priced, saving you money compared to other service providers. We don’t just offer company incorporation HR services; we are your business partner."
+              "HR Consulting now assists you in providing HR Management services starting from PEO services. Our fees are competitively priced, saving you price compared to other service providers. We don’t just offer company incorporation HR services; we are your business partner."
             )}
           </p>
 

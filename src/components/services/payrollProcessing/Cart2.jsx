@@ -22,7 +22,7 @@ export default function Cart2() {
       <div className="content-wrapper">
         <div className="features-grid">
           <div className="feature-box blue">
-            <h2>Save time and money</h2>
+            <h2>Save time and price</h2>
             <p>
               Reduce the need for internal payroll teams, software and ongoing
               training by outsourcing payroll processing to us.
