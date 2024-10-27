@@ -164,7 +164,7 @@ export const jobPosts = [
       Requirements: [
         "Bachelor’s degree in Human Resources, Law, Business Administration, or a related field; Master’s degree preferred.",
         "Proven work experience as an HR Manager with a focus on legal aspects, preferably in food production or related industries.",
-        "In-depth knowledge of Indonesian labor laws and regulations.",
+        "In-depth knowledge of indian labor laws and regulations.",
         "Strong analytical and problem-solving skills with attention to detail.",
         "Excellent communication and interpersonal skills.",
         "Ability to handle confidential information with discretion.",
@@ -282,21 +282,21 @@ export const Administration = [
   //   },
   // },
   // {
-  //   jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //   jobHeading: "Translator (Chinese – Bahasa india, Semarang)",
   //   jobcategory: "Translator, Translator",
-  //   jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //   jobName: "Translator (Chinese – Bahasa india, Semarang)",
   //   jobLocation: "Semarang",
   //   jobdegree: "Bachelor Degree",
   //   jobSalary: "IDR 10,000,000 to IDR 12,000,000",
   //   JobList: {
-  //     jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //     jobHeading: "Translator (Chinese – Bahasa india, Semarang)",
   //     jobcategory: "Translator, Translator",
-  //     jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+  //     jobName: "Translator (Chinese – Bahasa india, Semarang)",
   //     jobLocation: "Semarang",
   //     jobdegree: "Bachelor Degree",
   //     jobSalary: "IDR 10,000,000 to IDR 12,000,000",
   //     JobDescription: [
-  //       "We are seeking a skilled and experienced Translator proficient in both Indonesian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from Indonesian to Chinese and vice versa. You will play a crucial role in facilitating communication between our Indonesian-speaking and Chinese-speaking clients, partners, and stakeholders.",
+  //       "We are seeking a skilled and experienced Translator proficient in both indian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from indian to Chinese and vice versa. You will play a crucial role in facilitating communication between our indian-speaking and Chinese-speaking clients, partners, and stakeholders.",
   //     ],
   //     Responsibilities: [
   //       "Translate a wide range of documents including but not limited to business correspondence, legal documents, technical manuals, marketing materials, and website content.",
@@ -307,9 +307,9 @@ export const Administration = [
   //       "Maintain confidentiality and integrity in handling sensitive information.",
   //     ],
   //     Requirements: [
-  //       "Proficiency in both Indonesian and Chinese languages (written and spoken) is essential.",
+  //       "Proficiency in both indian and Chinese languages (written and spoken) is essential.",
   //       "Proven experience as a Translator, Interpreter, or similar role, with a strong portfolio of past translations.",
-  //       "Excellent linguistic and cultural understanding of both Indonesian and Chinese languages.",
+  //       "Excellent linguistic and cultural understanding of both indian and Chinese languages.",
   //       "Strong communication and interpersonal skills, with the ability to convey complex ideas accurately and effectively.",
   //       "Attention to detail and accuracy in translations, with a commitment to delivering high-quality work within tight deadlines.",
   //       "Familiarity with translation software and tools is preferred.",
@@ -420,7 +420,7 @@ export const CLevel = [
       ],
       Requirements: [
         "Minimum of 5 years of experience in the AC drive VFD segment within the automation industry.",
-        "Proven track record in sales within the Indonesian market, particularly with target companies such as Delta LS, Yaskawa, Danfoss, and Hitachi.",
+        "Proven track record in sales within the indian market, particularly with target companies such as Delta LS, Yaskawa, Danfoss, and Hitachi.",
         "Candidates with experience from agents representing these brands are highly preferred.",
         "Not considering candidates from European and American brands like ABB and Siemens.",
         "Strong understanding of the local market dynamics and customer needs.",
@@ -781,7 +781,7 @@ export const Human = [
       Requirements: [
         "Bachelor’s degree in Human Resources, Law, Business Administration, or a related field; Master’s degree preferred.",
         "Proven work experience as an HR Manager with a focus on legal aspects, preferably in food production or related industries.",
-        "In-depth knowledge of Indonesian labor laws and regulations.",
+        "In-depth knowledge of indian labor laws and regulations.",
         "Strong analytical and problem-solving skills with attention to detail.",
         "Excellent communication and interpersonal skills.",
         "Ability to handle confidential information with discretion.",
@@ -823,7 +823,7 @@ export const Resourcess = [
       Requirements: [
         "Bachelor’s degree in Human Resources, Law, Business Administration, or a related field; Master’s degree preferred.",
         "Proven work experience as an HR Manager with a focus on legal aspects, preferably in food production or related industries.",
-        "In-depth knowledge of Indonesian labor laws and regulations.",
+        "In-depth knowledge of indian labor laws and regulations.",
         "Strong analytical and problem-solving skills with attention to detail.",
         "Excellent communication and interpersonal skills.",
         "Ability to handle confidential information with discretion.",
@@ -867,7 +867,7 @@ export const Resourcess = [
         "Excellent communication and interpersonal skills, with the ability to build relationships at all levels of the organisation.",
         "Strategic thinker with strong analytical and problem-solving abilities.",
         "Ability to thrive in a fast-paced, dynamic environment and manage multiple priorities effectively.",
-        "Fluency in both written and spoken English and Bahasa Indonesia.",
+        "Fluency in both written and spoken English and Bahasa india.",
       ],
     },
   },
@@ -890,7 +890,7 @@ export const Import = [
 
       JobDescription: [
         "Managing the entire import process from purchasing to delivery, ensuring compliance with all legal and regulatory requirements.",
-        "Building and maintaining strong relationships with suppliers in China and supermarket chains in Indonesia. Negotiating terms and prices with suppliers to ensure cost-effective procurement while maintaining quality standards.",
+        "Building and maintaining strong relationships with suppliers in China and supermarket chains in india. Negotiating terms and prices with suppliers to ensure cost-effective procurement while maintaining quality standards.",
         "Monitoring market trends and adapting purchasing strategies to meet the dynamic market demands.",
         "Coordinating with logistics providers to ensure timely and efficient delivery of goods.",
         "Collaborating with customs agents to ensure smooth clearance of goods.",
@@ -901,10 +901,10 @@ export const Import = [
       ],
       Requirements: [
         "Proven experience in purchasing and importing goods, preferably from China.",
-        "Established connections and a strong network within Indonesian supermarket chains.",
+        "Established connections and a strong network within indian supermarket chains.",
         "Comprehensive understanding of import regulations, international trade, and customs procedures.",
-        "Fluent in English and Mandarin to communicate effectively with suppliers and business partners in China and Indonesia.",
-        "Proficiency in Bahasa Indonesia is highly advantageous. Strong negotiation skills and the ability to secure favourable terms.",
+        "Fluent in English and Mandarin to communicate effectively with suppliers and business partners in China and india.",
+        "Proficiency in Bahasa india is highly advantageous. Strong negotiation skills and the ability to secure favourable terms.",
         "Experience in supply chain management and logistics. Ability to analyse market trends and adapt purchasing strategies accordingly.",
         "Excellent organisational skills and the ability to manage multiple tasks efficiently. Proficient in the use of ERP systems and Microsoft Office Suite.",
       ],
@@ -934,7 +934,7 @@ export const Information = [
       ],
       Requirements: [
         "Fresh Graduate or last years students majoring in Psychology / Human Capital Management major or equivalent",
-        "Fluent in English and Bahasa Indonesia both verbal and written",
+        "Fluent in English and Bahasa india both verbal and written",
         "Active in organizations in-campus or off-campus, and have great project management skills",
         "Have the hunger to learn something new and a great problem solver",
         "Collaborative and have great interpersonal communications skills",
@@ -1005,7 +1005,7 @@ export const Legal = [
         "Manage company dissolution processes from start to finish, ensuring compliance with all legal requirements and minimising client stress.",
         "Draft, review, and negotiate a variety of legal contracts, including partnership agreements, lease agreements, and deeds of sale-purchase.",
         "Provide legal advice and support on corporate law matters, including the establishment, restructuring, and dissolution of companies.",
-        "Ensure compliance with Indonesian Company Law (UU PT) and other relevant regulations.",
+        "Ensure compliance with indian Company Law (UU PT) and other relevant regulations.",
         "Assist clients with the Online Single Submission (OSS) system, including the preparation and submission of necessary documentation.",
         "Liaise with the Ministry of Investment (BKPM) and other regulatory bodies to facilitate client compliance and licensing.",
         "Draft, review, and negotiate various legal documents, including contracts, agreements, and corporate policies.",
@@ -1016,13 +1016,13 @@ export const Legal = [
       ],
       Requirements: [
         "Bachelor’s degree in Law (S.H.) from a reputable university; a Master’s degree in Law (LL.M.) is a plus.",
-        "Admitted to the Indonesian Bar Association (Peradi) or equivalent legal qualification.",
+        "Admitted to the indian Bar Association (Peradi) or equivalent legal qualification.",
         "Minimum of 5 years of experience working in a reputable law firm, with a focus on corporate law.",
-        "In-depth knowledge of Indonesian Company Law (UU PT) and familiarity with the Online Single Submission (OSS) system and Ministry of Investment (BKPM) regulations.",
+        "In-depth knowledge of indian Company Law (UU PT) and familiarity with the Online Single Submission (OSS) system and Ministry of Investment (BKPM) regulations.",
         "Proven ability to manage multiple tasks and meet deadlines in a fast-paced environment.",
         "Excellent analytical, problem-solving, and decision-making skills.",
         "Strong communication and interpersonal skills, with the ability to interact effectively with clients and regulatory authorities.",
-        "Proficiency in English and Bahasa Indonesia, both written and spoken.",
+        "Proficiency in English and Bahasa india, both written and spoken.",
         "High ethical standards and professional integrity.",
       ],
     },
@@ -1047,14 +1047,14 @@ export const Legal = [
         "Liaise with government agencies, including the Ministry of Law and Human Rights, to ensure compliance with all regulatory requirements.",
         "Manage client relationships, addressing inquiries and providing timely updates on the progress of their incorporation applications.",
         "Collaborate with internal teams to streamline processes and improve service delivery.",
-        "Stay updated on changes to corporate laws and regulations in Indonesia, and advise clients accordingly.",
+        "Stay updated on changes to corporate laws and regulations in india, and advise clients accordingly.",
       ],
       Requirements: [
         "Female candidate preferred to diversify our team.",
         "Bachelor’s degree in Law or related field.",
         "Minimum of 1 year of experience in handling company incorporation services, preferably in a consulting or legal firm. Fresh Graduate is welcome to apply.",
-        "Strong understanding of Indonesian corporate law and regulatory requirements.",
-        "Excellent communication skills in both English and Bahasa Indonesia, both written and verbal.",
+        "Strong understanding of indian corporate law and regulatory requirements.",
+        "Excellent communication skills in both English and Bahasa india, both written and verbal.",
         "Detail-oriented with the ability to manage multiple tasks simultaneously.",
         "Proficiency in Microsoft Office and other relevant software applications.",
         "Ability to work independently and as part of a team in a fast-paced environment.",
@@ -1082,7 +1082,7 @@ export const Legal = [
       JobDescription: [
         "Provide legal advice and guidance to clients on a wide range of legal matters, including but not limited to corporate law, employment law, contract law, and regulatory compliance.",
         "Draft and review legal documents, contracts, and agreements to ensure accuracy and compliance with relevant laws and regulations.",
-        "Conduct legal research and analysis to stay updated on changes in Indonesian laws and regulations that may impact our clients’ businesses.",
+        "Conduct legal research and analysis to stay updated on changes in indian laws and regulations that may impact our clients’ businesses.",
         "Assist in the preparation and submission of legal documents and applications to relevant government authorities, such as permits, licenses, and registrations.",
         "Collaborate with internal teams to address legal issues and provide support on legal matters related to business operations.",
         "Represent clients in negotiations, meetings, and discussions with government authorities, stakeholders, and third parties as required.",
@@ -1090,8 +1090,8 @@ export const Legal = [
       Requirements: [
         "Bachelor’s degree in Law from a reputable university.",
         "Fresh graduate or up to 2 years of relevant experience in a legal role.",
-        "Strong understanding of Indonesian laws and regulations, with a focus on corporate law, commercial law, and regulatory compliance.",
-        "Excellent written and verbal communication skills in both English and Bahasa Indonesia.",
+        "Strong understanding of indian laws and regulations, with a focus on corporate law, commercial law, and regulatory compliance.",
+        "Excellent written and verbal communication skills in both English and Bahasa india.",
         "Ability to work independently and collaboratively in a fast-paced environment.",
         "Strong analytical and problem-solving skills with attention to detail. Proficiency in legal research and drafting legal documents.",
         "Demonstrated ability to prioritize tasks and manage multiple deadlines effectively.",
@@ -1118,7 +1118,7 @@ export const Legal = [
       JobTitle: ["Legal Supervisor"],
 
       JobSummary: [
-        "We are seeking a highly qualified and motivated Legal Supervisor to join our team. The ideal candidate will be responsible for overseeing legal matters related to import licences, coordinating the establishment of “Badan Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia” (BNP2TKI), and managing the creation of Ecatalog. The Legal Supervisor will play a crucial role in ensuring compliance with relevant regulations, supporting organisational objectives, and contributing to the overall success of our business.",
+        "We are seeking a highly qualified and motivated Legal Supervisor to join our team. The ideal candidate will be responsible for overseeing legal matters related to import licences, coordinating the establishment of “Badan Nasional Penempatan dan Perlindungan Tenaga Kerja india” (BNP2TKI), and managing the creation of Ecatalog. The Legal Supervisor will play a crucial role in ensuring compliance with relevant regulations, supporting organisational objectives, and contributing to the overall success of our business.",
       ],
 
       Responsibilities: [
@@ -1126,7 +1126,7 @@ export const Legal = [
         "Liaise with government authorities to obtain necessary import licences and permits.",
         "Ensure timely renewal and compliance with all import-related legal obligations.",
         "Collaborate with internal teams to provide legal guidance on import processes.",
-        "Lead the legal aspects of the establishment of “Badan Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia” (BNP2TKI).",
+        "Lead the legal aspects of the establishment of “Badan Nasional Penempatan dan Perlindungan Tenaga Kerja india” (BNP2TKI).",
         "Coordinate with relevant stakeholders, government agencies, and legal advisors to facilitate the establishment process.",
         "Draft and review legal documents related to the establishment of BNP2TKI.",
         "Ensure compliance with all regulatory requirements throughout the establishment process.",
@@ -1143,7 +1143,7 @@ export const Legal = [
       Requirements: [
         "Bachelor’s degree in Law or a related field; Master’s degree or additional certifications are a plus.",
         "Proven experience as a Legal Supervisor or similar role in a corporate/legal environment.",
-        "In-depth knowledge of import regulations, licensing procedures, and corporate law in Indonesia.",
+        "In-depth knowledge of import regulations, licensing procedures, and corporate law in india.",
         "Experience in handling the legal aspects of establishing government-related bodies (e.g., BNP2TKI).",
         "Familiarity with electronic catalogue creation and management.",
         "Strong analytical and problem-solving skills.",
@@ -1200,7 +1200,7 @@ export const Management = [
     jobHeading: "Chief Operation Officer – Automotive (COO)",
     jobcategory: "Management, Manufacturing ",
     jobName:
-      "Chief Operation Officer – Automotive (COO) Location: Semarang, Indonesia",
+      "Chief Operation Officer – Automotive (COO) Location: Semarang, india",
     jobLocation: "Semarang",
     jobdegree: "Bachelor Degree",
     jobSalary: "IDR 30,000,000 to IDR 40,000,000",
@@ -1208,7 +1208,7 @@ export const Management = [
       jobHeading: "Chief Operation Officer – Automotive (COO)",
       jobcategory: "Management, Manufacturing ",
       jobName:
-        "Chief Operation Officer – Automotive (COO) Location: Semarang, Indonesia",
+        "Chief Operation Officer – Automotive (COO) Location: Semarang, india",
       jobLocation: "Semarang",
       jobdegree: "Bachelor Degree",
       jobSalary: "IDR 30,000,000 to IDR 40,000,000",
@@ -1346,11 +1346,11 @@ export const Management = [
       ],
       Requirements: [
         "Lulusan S1 dalam Farmasi atau bidang terkait.",
-        "Memiliki lisensi sebagai Apoteker yang dikeluarkan oleh Ikatan Apoteker Indonesia (IAI).",
+        "Memiliki lisensi sebagai Apoteker yang dikeluarkan oleh Ikatan Apoteker india (IAI).",
         "Pengalaman sebelumnya dalam industri farmasi, perizinan BPOM, atau pengawasan BPOM akan menjadi nilai tambah.",
         "Memiliki pemahaman yang kuat tentang peraturan dan persyaratan BPOM terkait produksi, distribusi, dan pemasaran produk farmasi.",
         "Kemampuan dalam mengelola tim, merencanakan proyek, dan membuat keputusan strategis.",
-        "Kemampuan komunikasi yang baik dalam bahasa Indonesia, lisan dan tulisan, serta mampu berkomunikasi dengan pihak internal dan eksternal.",
+        "Kemampuan komunikasi yang baik dalam bahasa india, lisan dan tulisan, serta mampu berkomunikasi dengan pihak internal dan eksternal.",
       ],
     },
   },
@@ -1360,7 +1360,7 @@ export const Manufacturing = [
     jobHeading: "Chief Operation Officer – Automotive (COO)",
     jobcategory: "Management, Manufacturing",
     jobName:
-      "Chief Operation Officer – Automotive (COO) Location: Semarang, Indonesia",
+      "Chief Operation Officer – Automotive (COO) Location: Semarang, india",
     jobLocation: "Semarang",
     jobdegree: "Bachelor Degree",
     jobSalary: "IDR 30,000,000 to IDR 40,000,000",
@@ -1368,7 +1368,7 @@ export const Manufacturing = [
       jobHeading: "Chief Operation Officer – Automotive (COO)",
       jobcategory: "Management, Manufacturing ",
       jobName:
-        "Chief Operation Officer – Automotive (COO) Location: Semarang, Indonesia",
+        "Chief Operation Officer – Automotive (COO) Location: Semarang, india",
       jobLocation: "Semarang",
       jobdegree: "Bachelor Degree",
       jobSalary: "IDR 30,000,000 to IDR 40,000,000",
@@ -1835,11 +1835,11 @@ export const Pharmacy = [
       ],
       Requirements: [
         "Lulusan S1 dalam Farmasi atau bidang terkait.",
-        "Memiliki lisensi sebagai Apoteker yang dikeluarkan oleh Ikatan Apoteker Indonesia (IAI).",
+        "Memiliki lisensi sebagai Apoteker yang dikeluarkan oleh Ikatan Apoteker india (IAI).",
         "Pengalaman sebelumnya dalam industri farmasi, perizinan BPOM, atau pengawasan BPOM akan menjadi nilai tambah.",
         "Memiliki pemahaman yang kuat tentang peraturan dan persyaratan BPOM terkait produksi, distribusi, dan pemasaran produk farmasi.",
         "Kemampuan dalam mengelola tim, merencanakan proyek, dan membuat keputusan strategis.",
-        "Kemampuan komunikasi yang baik dalam bahasa Indonesia, lisan dan tulisan, serta mampu berkomunikasi dengan pihak internal dan eksternal.",
+        "Kemampuan komunikasi yang baik dalam bahasa india, lisan dan tulisan, serta mampu berkomunikasi dengan pihak internal dan eksternal.",
       ],
     },
   },
@@ -1909,7 +1909,7 @@ export const Purchasing = [
 
       JobDescription: [
         "Managing the entire import process from purchasing to delivery, ensuring compliance with all legal and regulatory requirements.",
-        "Building and maintaining strong relationships with suppliers in China and supermarket chains in Indonesia. Negotiating terms and prices with suppliers to ensure cost-effective procurement while maintaining quality standards.",
+        "Building and maintaining strong relationships with suppliers in China and supermarket chains in india. Negotiating terms and prices with suppliers to ensure cost-effective procurement while maintaining quality standards.",
         "Monitoring market trends and adapting purchasing strategies to meet the dynamic market demands.",
         "Coordinating with logistics providers to ensure timely and efficient delivery of goods.",
         "Collaborating with customs agents to ensure smooth clearance of goods.",
@@ -1920,10 +1920,10 @@ export const Purchasing = [
       ],
       Requirements: [
         "Proven experience in purchasing and importing goods, preferably from China.",
-        "Established connections and a strong network within Indonesian supermarket chains.",
+        "Established connections and a strong network within indian supermarket chains.",
         "Comprehensive understanding of import regulations, international trade, and customs procedures.",
-        "Fluent in English and Mandarin to communicate effectively with suppliers and business partners in China and Indonesia.",
-        "Proficiency in Bahasa Indonesia is highly advantageous. Strong negotiation skills and the ability to secure favourable terms.",
+        "Fluent in English and Mandarin to communicate effectively with suppliers and business partners in China and india.",
+        "Proficiency in Bahasa india is highly advantageous. Strong negotiation skills and the ability to secure favourable terms.",
         "Experience in supply chain management and logistics. Ability to analyse market trends and adapt purchasing strategies accordingly.",
         "Excellent organisational skills and the ability to manage multiple tasks efficiently. Proficient in the use of ERP systems and Microsoft Office Suite.",
       ],
@@ -1983,7 +1983,7 @@ export const Sales = [
       jobSalary: "IDR 7,000,000",
       JobDescription: [],
       JobSummary: [
-        "Our client are seeking a dynamic and experienced Field Sales Supervisor to oversee and manage our sales operations across Indonesia. The ideal candidate will be responsible for leading a team of sales representatives, ensuring that they achieve their targets in the distribution of pharmaceutical products, consumer goods, and medical devices & diagnostics. This role requires excellent leadership skills, strategic thinking, and the ability to drive sales growth in a competitive market.",
+        "Our client are seeking a dynamic and experienced Field Sales Supervisor to oversee and manage our sales operations across india. The ideal candidate will be responsible for leading a team of sales representatives, ensuring that they achieve their targets in the distribution of pharmaceutical products, consumer goods, and medical devices & diagnostics. This role requires excellent leadership skills, strategic thinking, and the ability to drive sales growth in a competitive market.",
       ],
       KeyResponsibilities: [
         "Supervise, mentor, and motivate a team of field sales representatives.",
@@ -2071,7 +2071,7 @@ export const Sales = [
       ],
       Requirements: [
         "Minimum of 5 years of experience in the AC drive VFD segment within the automation industry.",
-        "Proven track record in sales within the Indonesian market, particularly with target companies such as Delta LS, Yaskawa, Danfoss, and Hitachi.",
+        "Proven track record in sales within the indian market, particularly with target companies such as Delta LS, Yaskawa, Danfoss, and Hitachi.",
         "Candidates with experience from agents representing these brands are highly preferred.",
         "Not considering candidates from European and American brands like ABB and Siemens. Strong understanding of the local market dynamics and customer needs. Excellent communication, negotiation, and relationship-building skills. Ability to develop and execute strategic plans to drive business objectives.",
       ],
@@ -2252,21 +2252,21 @@ export const Translator1 = [
     },
   },
   {
-    jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+    jobHeading: "Translator (Chinese – Bahasa india, Semarang)",
     jobcategory: "Translator, Translator",
-    jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+    jobName: "Translator (Chinese – Bahasa india, Semarang)",
     jobLocation: "Semarang",
     jobdegree: "Bachelor Degree",
     jobSalary: "IDR 10,000,000 to IDR 12,000,000",
     JobList: {
-      jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+      jobHeading: "Translator (Chinese – Bahasa india, Semarang)",
       jobcategory: "Translator, Translator",
-      jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+      jobName: "Translator (Chinese – Bahasa india, Semarang)",
       jobLocation: "Semarang",
       jobdegree: "Bachelor Degree",
       jobSalary: "IDR 10,000,000 to IDR 12,000,000",
       JobDescription: [
-        "We are seeking a skilled and experienced Translator proficient in both Indonesian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from Indonesian to Chinese and vice versa. You will play a crucial role in facilitating communication between our Indonesian-speaking and Chinese-speaking clients, partners, and stakeholders.",
+        "We are seeking a skilled and experienced Translator proficient in both indian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from indian to Chinese and vice versa. You will play a crucial role in facilitating communication between our indian-speaking and Chinese-speaking clients, partners, and stakeholders.",
       ],
       Responsibilities: [
         "Translate a wide range of documents including but not limited to business correspondence, legal documents, technical manuals, marketing materials, and website content.",
@@ -2277,9 +2277,9 @@ export const Translator1 = [
         "Maintain confidentiality and integrity in handling sensitive information.",
       ],
       Requirements: [
-        "Proficiency in both Indonesian and Chinese languages (written and spoken) is essential.",
+        "Proficiency in both indian and Chinese languages (written and spoken) is essential.",
         "Proven experience as a Translator, Interpreter, or similar role, with a strong portfolio of past translations.",
-        "Excellent linguistic and cultural understanding of both Indonesian and Chinese languages.",
+        "Excellent linguistic and cultural understanding of both indian and Chinese languages.",
         "Strong communication and interpersonal skills, with the ability to convey complex ideas accurately and effectively.",
         "Attention to detail and accuracy in translations, with a commitment to delivering high-quality work within tight deadlines.",
         "Familiarity with translation software and tools is preferred.",
@@ -2292,21 +2292,21 @@ export const Translator1 = [
 ];
 export const Translator2 = [
   {
-    jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+    jobHeading: "Translator (Chinese – Bahasa india, Semarang)",
     jobcategory: "Translator, Translator",
-    jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+    jobName: "Translator (Chinese – Bahasa india, Semarang)",
     jobLocation: "Semarang",
     jobdegree: "Bachelor Degree",
     jobSalary: "IDR 10,000,000 to IDR 12,000,000",
     JobList: {
-      jobHeading: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+      jobHeading: "Translator (Chinese – Bahasa india, Semarang)",
       jobcategory: "Translator, Translator",
-      jobName: "Translator (Chinese – Bahasa Indonesia, Semarang)",
+      jobName: "Translator (Chinese – Bahasa india, Semarang)",
       jobLocation: "Semarang",
       jobdegree: "Bachelor Degree",
       jobSalary: "IDR 10,000,000 to IDR 12,000,000",
       JobDescription: [
-        "We are seeking a skilled and experienced Translator proficient in both Indonesian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from Indonesian to Chinese and vice versa. You will play a crucial role in facilitating communication between our Indonesian-speaking and Chinese-speaking clients, partners, and stakeholders.",
+        "We are seeking a skilled and experienced Translator proficient in both indian and Chinese languages to join our team in Semarang. As a Translator, you will be responsible for accurately translating a variety of documents, conversations, and materials from indian to Chinese and vice versa. You will play a crucial role in facilitating communication between our indian-speaking and Chinese-speaking clients, partners, and stakeholders.",
       ],
       Responsibilities: [
         "Translate a wide range of documents including but not limited to business correspondence, legal documents, technical manuals, marketing materials, and website content.",
@@ -2317,9 +2317,9 @@ export const Translator2 = [
         "Maintain confidentiality and integrity in handling sensitive information.",
       ],
       Requirements: [
-        "Proficiency in both Indonesian and Chinese languages (written and spoken) is essential.",
+        "Proficiency in both indian and Chinese languages (written and spoken) is essential.",
         "Proven experience as a Translator, Interpreter, or similar role, with a strong portfolio of past translations.",
-        "Excellent linguistic and cultural understanding of both Indonesian and Chinese languages.",
+        "Excellent linguistic and cultural understanding of both indian and Chinese languages.",
         "Strong communication and interpersonal skills, with the ability to convey complex ideas accurately and effectively.",
         "Attention to detail and accuracy in translations, with a commitment to delivering high-quality work within tight deadlines.",
         "Familiarity with translation software and tools is preferred.",

@@ -58,10 +58,10 @@ function PricingHrConsulting() {
               className="article-image"
             />
             <h3 className="article-title">
-              {t("Maximizing Talent Acquisition in Indonesia: A Comprehensive Guide")}
+              {t("Maximizing Talent Acquisition in india: A Comprehensive Guide")}
             </h3>
             <p className="article-description">
-              {t("Learn key strategies for acquiring top talent in Indonesia, from recruitment tips to navigating local hiring practices.")}
+              {t("Learn key strategies for acquiring top talent in india, from recruitment tips to navigating local hiring practices.")}
             </p>
           </div>
           <div className="article">
@@ -71,10 +71,10 @@ function PricingHrConsulting() {
               className="article-image"
             />
             <h3 className="article-title">
-              {t("Ensuring HR Compliance in Indonesia: What You Need to Know")}
+              {t("Ensuring HR Compliance in india: What You Need to Know")}
             </h3>
             <p className="article-description">
-              {t("Discover the essential steps businesses must take to remain compliant with Indonesia's labor laws and regulations.")}
+              {t("Discover the essential steps businesses must take to remain compliant with india's labor laws and regulations.")}
             </p>
           </div>
           <div className="article">

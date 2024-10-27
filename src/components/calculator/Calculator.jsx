@@ -107,7 +107,7 @@ const Calculator = () => {
                 <div className="result-card">
                     <h3>BPJS Employee</h3>
                     <h3>Rs{bpjsEmployee}</h3>
-                    <p>BPJS Kesehatan is a health protection and insurance program for Indonesian citizens, including company employees, funded by 5% of the monthly salary, with 4% covered by the employer.</p>
+                    <p>BPJS Kesehatan is a health protection and insurance program for indian citizens, including company employees, funded by 5% of the monthly salary, with 4% covered by the employer.</p>
                 </div>
                 <div className="result-card">
                     <h3>JHT Company</h3>
@@ -132,12 +132,12 @@ const Calculator = () => {
                 <div className="result-card">
                     <h3>BPJS Company</h3>
                     <h3>Rs{bpjsCompany}</h3>
-                    <p>BPJS Kesehatan is a health protection and insurance program for Indonesian citizens, including company employees, funded by 5% of the monthly salary, with 1% covered by the employee.</p>
+                    <p>BPJS Kesehatan is a health protection and insurance program for indian citizens, including company employees, funded by 5% of the monthly salary, with 1% covered by the employee.</p>
                 </div>
                 <div className="result-card">
                     <h3>Biaya Jabatan</h3>
                     <h3>Rs{biayaJabatan}</h3>
-                    <p>"Occupational Expenses" or "Position Expenses" are deductible amounts in the Indonesian tax system, representing a portion of an employee's income exempt from tax, to account for job-related costs.</p>
+                    <p>"Occupational Expenses" or "Position Expenses" are deductible amounts in the indian tax system, representing a portion of an employee's income exempt from tax, to account for job-related costs.</p>
                 </div>
                 <div className="result-card">
                     <h3>Gross Salary</h3>
@@ -157,17 +157,17 @@ const Calculator = () => {
                 <div className="result-card">
                     <h3>PTKP</h3>
                     <h3>Rs{ptkp}</h3>
-                    <p>Penghasilan Tidak Kena Pajak (PTKP) refers to Non-Taxable Income in Indonesia. It is the threshold below which an individual's income is not subject to income tax (Pajak Penghasilan or PPh).</p>
+                    <p>Penghasilan Tidak Kena Pajak (PTKP) refers to Non-Taxable Income in india. It is the threshold below which an individual's income is not subject to income tax (Pajak Penghasilan or PPh).</p>
                 </div>
                 <div className="result-card">
                     <h3>PKP</h3>
                     <h3>Rs{pkp}</h3>
-                    <p>Penghasilan Kena Pajak (PKP) in Indonesia refers to Taxable Income. It is the portion of an individual's or entity's income that is subject to income tax. PKP is determined after making permissible deductions and adjustments to the Gross Income.</p>
+                    <p>Penghasilan Kena Pajak (PKP) in india refers to Taxable Income. It is the portion of an individual's or entity's income that is subject to income tax. PKP is determined after making permissible deductions and adjustments to the Gross Income.</p>
                 </div>
                 <div className="result-card">
                     <h3>Round PKP</h3>
                     <h3>Rs{roundPkp}</h3>
-                    <p>PKP (Penghasilan Kena Pajak) is the income amount that is subject to tax in Indonesia, calculated by deducting allowable deductions from the gross income.
+                    <p>PKP (Penghasilan Kena Pajak) is the income amount that is subject to tax in india, calculated by deducting allowable deductions from the gross income.
                     </p>
                 </div>
                 <div className="result-card">
@@ -178,7 +178,7 @@ const Calculator = () => {
                 <div className="result-card">
                     <h3>WHT</h3>
                     <h3>Rs{wht}</h3>
-                    <p>Withholding Tax (WHT) in Indonesia, commonly referred to as Pajak Potong or Pajak Pemotongan, is a tax deducted at source on certain types of transactions. The payer of the income is responsible for deducting and remitting the tax to the tax authorities before the funds are received by the payee.</p>
+                    <p>Withholding Tax (WHT) in india, commonly referred to as Pajak Potong or Pajak Pemotongan, is a tax deducted at source on certain types of transactions. The payer of the income is responsible for deducting and remitting the tax to the tax authorities before the funds are received by the payee.</p>
                 </div>
                 <div className="result-card">
                     <h3>Take Home Pay</h3>
@@ -188,7 +188,7 @@ const Calculator = () => {
                 <div className="result-card">
                     <h3>Total BPJSTK</h3>
                     <h3>Rs{totalBpjstk}</h3>
-                    <p>BPJS Ketenagakerjaan (BPJSTK) is Indonesia's Employment Social Security Agency, offering workers key programs like JHT (Old-Age Benefits), JKK (Work Accident Insurance), JKM (Life Insurance), and JP (Pension Security) to ensure financial security during retirement, accidents at work, or family bereavement.</p>
+                    <p>BPJS Ketenagakerjaan (BPJSTK) is india's Employment Social Security Agency, offering workers key programs like JHT (Old-Age Benefits), JKK (Work Accident Insurance), JKM (Life Insurance), and JP (Pension Security) to ensure financial security during retirement, accidents at work, or family bereavement.</p>
                 </div>
                 <div className="result-card">
                     <h3>Total BPJS Kesehatan</h3>
@@ -198,7 +198,7 @@ const Calculator = () => {
                 <div className="result-card">
                     <h3>Total BPJS</h3>
                     <h3>Rs{totalBpjs}</h3>
-                    <p>Total BPJS is the sum of contributions to Indonesia's employment and healthcare social security programs, covering both employer's and employee's payments for health, pension, and insurance benefits.</p>
+                    <p>Total BPJS is the sum of contributions to india's employment and healthcare social security programs, covering both employer's and employee's payments for health, pension, and insurance benefits.</p>
                 </div>
 
             </div>

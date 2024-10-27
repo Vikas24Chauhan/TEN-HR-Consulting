@@ -327,10 +327,10 @@ const Recruitment = () => {
               className="article-image"
             />
             <h3 className="article-title">
-              Maximizing Talent Acquisition in Indonesia: A Comprehensive Guide
+              Maximizing Talent Acquisition in india: A Comprehensive Guide
             </h3>
             <p className="article-description">
-              Learn key strategies for acquiring top talent in Indonesia, from
+              Learn key strategies for acquiring top talent in india, from
               recruitment tips to navigating local hiring practices.
             </p>
           </div>
@@ -341,11 +341,11 @@ const Recruitment = () => {
               className="article-image"
             />
             <h3 className="article-title">
-              Ensuring HR Compliance in Indonesia: What You Need to Know
+              Ensuring HR Compliance in india: What You Need to Know
             </h3>
             <p className="article-description">
               Discover the essential steps businesses must take to remain
-              compliant with Indonesia's labor laws and regulations.
+              compliant with india's labor laws and regulations.
             </p>
           </div>
           <div className="article">

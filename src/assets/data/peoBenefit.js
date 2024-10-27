@@ -15,7 +15,7 @@ export const peoBenefits = [
     id: 2,
     image: proBenefit2,
     name: "Optimize Spending",
-    desc: "Establish your presence in Indonesia easily and affordably. Our comprehensive services cover every aspect of setting up a subsidiary, from legal to financial, ensuring you save time and avoid the high costs of beginning from scratch in a foreign market.",
+    desc: "Establish your presence in india easily and affordably. Our comprehensive services cover every aspect of setting up a subsidiary, from legal to financial, ensuring you save time and avoid the high costs of beginning from scratch in a foreign market.",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const peoBenefits = [
     id: 4,
     image: proBenefit4,
     name: "Mitigate Barriers to Entry",
-    desc: "Empower your business growth in Indonesia with our knowledgeable support. We’ll guide you through the intricacies of legal, regulatory, and administrative processes without hassle.",
+    desc: "Empower your business growth in india with our knowledgeable support. We’ll guide you through the intricacies of legal, regulatory, and administrative processes without hassle.",
   },
   {
     id: 5,

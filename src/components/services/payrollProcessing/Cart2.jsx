@@ -15,7 +15,7 @@ export default function Cart2() {
         <h1>More than Payroll</h1>
         <p>
           Unlike other payroll processors we also ensure local compliance with
-          all HR regulations in Indonesia.
+          all HR regulations in india.
         </p>
       </div>
 
@@ -31,7 +31,7 @@ export default function Cart2() {
           <div className="feature-box gray">
             <h2>Compliance and Accuracy</h2>
             <p>
-              We are experts in regulatory compliance and tax laws for Indonesia
+              We are experts in regulatory compliance and tax laws for india
               and will ensure you remain compliant and up-to-date with the
               changing regulations.
             </p>

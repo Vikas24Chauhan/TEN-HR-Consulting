@@ -313,14 +313,14 @@ function Home() {
               </div>
               <p className='partner-description'>
                 {t(
-                  `We are local experts who provide on-the-ground support and guidance in Indonesia. From HR specialists to legal advisors, weare equipped to handle any challenge your operation may face. Our local presence means we're always here to support your business with a deep understanding of the Indonesian business climate. Benefit from our expertise and established networks to ensure your Indonesian venture is successful.`
+                  `We are local experts who provide on-the-ground support and guidance in india. From HR specialists to legal advisors, weare equipped to handle any challenge your operation may face. Our local presence means we're always here to support your business with a deep understanding of the indian business climate. Benefit from our expertise and established networks to ensure your indian venture is successful.`
                 )}{" "}
               </p>
             </div>
             <div className='partner-image-container'>
               <img
                 src='https://recruitindo.com/wp-content/uploads/2023/12/Expert-local-knowledge.png'
-                alt='Expert local knowledge in Indonesia'
+                alt='Expert local knowledge in india'
                 className='partner-image'
               />
             </div>
@@ -343,7 +343,7 @@ function Home() {
               </div>
               <p className='cost-description'>
                 {t(
-                  "Avoid the big expenses and long waits that come with starting a new company in Indonesia. With our help, you can get to work quickly and cut down on legal and setup costs. Put your price and effort into growing your business instead of getting tangled up in complicated paperwork."
+                  "Avoid the big expenses and long waits that come with starting a new company in india. With our help, you can get to work quickly and cut down on legal and setup costs. Put your price and effort into growing your business instead of getting tangled up in complicated paperwork."
                 )}{" "}
               </p>
             </div>
@@ -357,14 +357,14 @@ function Home() {
               </div>
               <p className='compliance-description'>
                 {t(
-                  `India's legal environment is unique, with regulations that can be intricate and often change. With our EOR service, you gain access to our in-depth knowledge of Indonesian labor laws, tax regulations, and compliance requirements. We act as your legal buffer, minimizing risks and protecting your business interests. Our team stays abreast of the latest legal updates, providing peace of mind that your operations are always compliant and your business integrity remains intact.`
+                  `India's legal environment is unique, with regulations that can be intricate and often change. With our EOR service, you gain access to our in-depth knowledge of indian labor laws, tax regulations, and compliance requirements. We act as your legal buffer, minimizing risks and protecting your business interests. Our team stays abreast of the latest legal updates, providing peace of mind that your operations are always compliant and your business integrity remains intact.`
                 )}{" "}
               </p>
             </div>
             <div className='compliance-image-container'>
               <img
                 src='https://recruitindo.com/wp-content/uploads/2023/12/compliance.png'
-                alt='Expert local knowledge in Indonesia'
+                alt='Expert local knowledge in india'
                 className='partner-image'
               />
             </div>

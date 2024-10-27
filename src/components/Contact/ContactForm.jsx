@@ -113,7 +113,7 @@ function ContactForm() {
         { code: "+36", label: "HU" }, // Hungary
         { code: "+354", label: "IS" }, // Iceland
         { code: "+91", label: "IN" }, // India
-        { code: "+62", label: "ID" }, // Indonesia
+        { code: "+62", label: "ID" }, // india
         { code: "+98", label: "IR" }, // Iran
         { code: "+964", label: "IQ" }, // Iraq
         { code: "+353", label: "IE" }, // Ireland

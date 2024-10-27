@@ -51,13 +51,13 @@ export default function Cart() {
     {
       title: "Custom Solutions",
       items: [
-        "Our team can work with you to create customized solutions to cater to any payroll related need you have in Indonesia."
+        "Our team can work with you to create customized solutions to cater to any payroll related need you have in india."
       ]
     },
     {
       title: "SMB Focus",
       items: [
-        "We understand the unique challenges faced by SMBs in Indonesia. Our team of experts has experience managing payroll for hundreds of SMB clients and can assist you so you can focus on your business."
+        "We understand the unique challenges faced by SMBs in india. Our team of experts has experience managing payroll for hundreds of SMB clients and can assist you so you can focus on your business."
       ]
     }
   ];
@@ -65,7 +65,7 @@ export default function Cart() {
   return (
     <div className="payroll-expertise">
       <header>PAYROLL PROCESSING</header>
-      <h1>Unmatched Indonesian Payroll Expertise</h1>
+      <h1>Unmatched indian Payroll Expertise</h1>
       <div className="feature-grid">
         {features.map((feature, index) => (
           <FeatureCard key={index} title={feature.title} items={feature.items} />

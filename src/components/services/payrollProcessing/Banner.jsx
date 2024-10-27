@@ -22,7 +22,7 @@ export default function Banner() {
         <h2>PAYROLL SERVICES</h2>
         <h1 className="title">Payroll Services You Can Run in Your Sleep</h1>
         <p className="description">
-          Run payroll in Indonesia with one platform to streamline international
+          Run payroll in india with one platform to streamline international
           operations and eliminate the ongoing admin of local compliance, taxes,
           benefits, and more.
         </p>

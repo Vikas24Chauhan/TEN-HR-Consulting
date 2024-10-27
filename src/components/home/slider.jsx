@@ -7,7 +7,7 @@ const slider = [
     image: "https://recruitindo.com/wp-content/uploads/2023/12/peo-eor.jpeg",
     title: "PEO & EOR",
     description:
-      "Ten Hr consulting is a leading Professional Employer Organization (PEO), Recruitment, and HR consulting firm in Indonesia.",
+      "Ten Hr consulting is a leading Professional Employer Organization (PEO), Recruitment, and HR consulting firm in india.",
     learnMoreLink: "http://localhost:5173/services/peo&eor",
   },
   {

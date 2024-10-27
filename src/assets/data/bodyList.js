@@ -10,14 +10,14 @@ export const bodyList = [
     image: Card1,
     heading: "HR Documentation",
     content:
-      "We will provide you with, or review any of your existing HR documentation (employment contracts, etc.) that you require to run and operate your business in Indonesia.",
+      "We will provide you with, or review any of your existing HR documentation (employment contracts, etc.) that you require to run and operate your business in india.",
   },
   {
     id: 2,
     image: Card2,
     heading: "Company Policy Handbook",
     content:
-      "We will work with you to design a bespoke Company Policy Employee Handbook that is required for every Company operating in Indonesia",
+      "We will work with you to design a bespoke Company Policy Employee Handbook that is required for every Company operating in india",
   },
   {
     id: 3,
