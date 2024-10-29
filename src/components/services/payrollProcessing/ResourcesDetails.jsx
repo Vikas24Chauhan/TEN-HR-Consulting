@@ -1,22 +1,15 @@
 import React from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 import ServicesPEO1 from "../../../assets/images/ServicesPEO1.jpg";
 import ServicesPEO2 from "../../../assets/images/ServicesPEO2.jpg";
 import ServicesPEO3 from "../../../assets/images/ServicesPEO3.jpg";
-import "./Resources.css";
+import "./ResourcesDetails.css";
 
-export default function ResourcesAndArticles() {
+export default function ResourcesDetails() {
   const { t } = useTranslation();
+  const { id } = useParams();
   const navigate = useNavigate();
-
-  const resourcesPage = () => {
-    navigate("/resources");
-  };
-
-  const navigateToDetails = (id) => {
-    navigate(`/resourcesdetails/${id}`);
-  };
 
   const peoResources = [
     {
@@ -57,41 +50,45 @@ export default function ResourcesAndArticles() {
     },
   ];
 
+  const resource = peoResources.find((item) => item.id === parseInt(id));
+
+  if (!resource) {
+    return <p>{t("Resource not found")}</p>;
+  }
+
   return (
-    <>
-      {/* Resources and Articles Section */}
-      <div className="pay-resources">
-        <h2>{t("Resources")}</h2>
-        <h1>{t("Resources and Articles")}</h1>
-        <div className="pay-resource-cards">
-          {peoResources.map((ele) => (
-            <div
-              key={ele.id}
-              className="pay-resource-card"
-              onClick={() => navigateToDetails(ele.id)}
-              style={{ cursor: "pointer" }}
-            >
-              <img src={ele.img} alt={ele.title} />
-              <div className="pay-resource-card-btn">
-                {ele.resources === " " ? (
-                  " "
-                ) : (
-                  <>
-                    {/* Add button or link if needed */}
-                  </>
-                )}
-              </div>
-              <div className="pay-resource-card-text">
-                <h4>{ele.title}</h4>
-                <p>{ele.text}</p>
-              </div>
-            </div>
-          ))}
+    <div className="resource-details">
+      <div className="resource-details-card">
+        <img src={resource.img} alt={resource.title} className="resource-img" />
+        <h2>{resource.title}</h2>
+        <p>{resource.text}</p>
+        <div className="resource-extra-info">
         </div>
-        <button className="payResource-btn" onClick={resourcesPage}>
-          {t("Our Resources")}
-        </button>
+        <button onClick={() => navigate(-1)} className="back-button">
+        {t("Back to Resources")}
+      </button>
       </div>
-    </>
+    </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
