@@ -75,11 +75,11 @@ const PricingRecruitment = () => {
             />
             <h3 className="article-title">
               Unlocking the Benefits of PEO/EOR Services for Businesses in
-              Indonesia
+              india
             </h3>
             <p className="article-description">
               Discover how PEO/EOR services can streamline operations and save
-              costs for businesses expanding in Indonesia.
+              costs for businesses expanding in india.
             </p>
           </div>
           <div className="article">
@@ -89,11 +89,11 @@ const PricingRecruitment = () => {
               className="article-image"
             />
             <h3 className="article-title">
-              Tech Expansion to Indonesia: Key Strategies for Success
+              Tech Expansion to india: Key Strategies for Success
             </h3>
             <p className="article-description">
               Learn how tech companies can leverage local talent and resources
-              to successfully enter the Indonesian market.
+              to successfully enter the indian market.
             </p>
           </div>
           <div className="article">
@@ -104,7 +104,7 @@ const PricingRecruitment = () => {
             />
             <h3 className="article-title">
               How to Select the Right PEO Provider for Your Business in
-              Indonesia
+              india
             </h3>
             <p className="article-description">
               Get tips on selecting a PEO provider that aligns with your

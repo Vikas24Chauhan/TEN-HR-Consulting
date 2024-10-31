@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import "./PrivacyPolicy";
+import "./FAQ/FAQSection";
+import "./FAQ/FAQItem"
 
 const Footer = () => {
   return (
@@ -24,8 +26,8 @@ const Footer = () => {
   <l1>Company</l1>
   <br />
   <br />
-  <li><a href="#">Frequently Asked Questions</a></li>
-  <li><a href="#">About Recruitindo</a></li>
+  <li><a href="/FAQ">Frequently Asked Questions</a></li>
+  <li><a href="/aboutUs">About TEN HR Consulting</a></li>
   <li><a href="#">Terms of Service</a></li>
   <li><a href="/privacy-policy">Privacy Policy</a></li>
 </ul>
@@ -36,11 +38,11 @@ const Footer = () => {
     <l2>Services</l2>
     <br />
     <br />
-    <li><a href="#">PEO & EoR</a></li>
-    <li><a href="#">Recruitment</a></li>
-    <li><a href="#">HR Consulting</a></li>
-    <li><a href="#">Payroll Processing</a></li>
-    <li><a href="#">Managed Services</a></li>
+    <li><a href="/services/peo&eor">PEO & EoR</a></li>
+    <li><a href="/services/recruitment">Recruitment</a></li>
+    <li><a href="/services/hrConsulting">HR Consulting</a></li>
+    <li><a href="/services/payrollProcessing">Payroll Processing</a></li>
+    <li><a href="/services/managedServices">Managed Services</a></li>
   </ul>
 </div>
 
@@ -51,37 +53,16 @@ const Footer = () => {
   <br />
   <br />
   <li><a href="mailto:
-info@recruitindo.com">
-info@recruitindo.com</a></li>
-  <li>+(62) 21 570-0415</li>
-  <button><a href=""> Follow Our Linkedin</a></button>
+hr@entrepreneurshipnetwork.net">
+hr@entrepreneurshipnetwork.net</a></li>
+  {/* <li>+(62) 21 570-0415</li> */}
+  <button><a href="https://www.linkedin.com/company/ten-hr-consulting/"> Follow Our Linkedin</a></button>
 </ul>
 
 
 </div>
    </div>
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    </div>
    </>
   )

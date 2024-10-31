@@ -49,7 +49,7 @@ const Resources = () => {
                   " "
                 ) : (
                   <>
-                    ,
+                    
                     <button className="resources-btn">
                       {t(ele.resources)}
                     </button>

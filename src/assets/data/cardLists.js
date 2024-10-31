@@ -10,7 +10,7 @@ export const cardLists = [
   },
   {
     id: 1,
-    img: "https://recruitindo.com/wp-content/uploads/2023/12/recruitindo-by-number-1024x682.jpeg",
+    img: "https://recruitindo.com/wp-content/uploads/2023/12/recruitindo-by-number-1536x1024.jpeg",
     article: "Articles",
     resources: "Resources",
     title:

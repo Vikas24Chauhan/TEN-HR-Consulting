@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Recruitment.css";
 import { useNavigate } from "react-router-dom";
 
 const Recruitment = () => {
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    countryCode: "",
+    phoneNumber: "",
+    company: "",
+    inquiryReason: "",
+  });
 
   // Button Click Handlers
   const handleApplyTalentClick = () => {
@@ -17,6 +27,116 @@ const Recruitment = () => {
   const handleMoreResourcesClick = () => {
     navigate("/resources");
   };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+    setIsOpen(false); // Close form on submit
+  };
+
+  const ScheduleForm = () => (
+    <div
+      className={`fixed inset-0 flex items-center justify-center ${
+        isOpen ? "block" : "hidden"
+      }`}
+      style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+      onClick={() => setIsOpen(false)}
+    >
+      <div
+        className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h2 className="text-2xl font-bold mb-4">Schedule Now</h2>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            value={formData.firstName}
+            onChange={handleInputChange}
+            className="w-full p-2 border rounded"
+            required
+          />
+          <input
+            type="text"
+            name="lastName"
+            placeholder="Last Name"
+            value={formData.lastName}
+            onChange={handleInputChange}
+            className="w-full p-2 border rounded"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formData.email}
+            onChange={handleInputChange}
+            className="w-full p-2 border rounded"
+            required
+          />
+          <div className="flex space-x-2">
+            <input
+              type="text"
+              name="countryCode"
+              placeholder="Country Code"
+              value={formData.countryCode}
+              onChange={handleInputChange}
+              className="w-1/3 p-2 border rounded"
+              required
+            />
+            <input
+              type="text"
+              name="phoneNumber"
+              placeholder="Phone Number"
+              value={formData.phoneNumber}
+              onChange={handleInputChange}
+              className="w-2/3 p-2 border rounded"
+              required
+            />
+          </div>
+          <input
+            type="text"
+            name="company"
+            placeholder="Company"
+            value={formData.company}
+            onChange={handleInputChange}
+            className="w-full p-2 border rounded"
+            required
+          />
+          <textarea
+            name="inquiryReason"
+            placeholder="Reason for Inquiry"
+            value={formData.inquiryReason}
+            onChange={handleInputChange}
+            className="w-full p-2 border rounded"
+            rows="4"
+            required
+          />
+          <button
+            type="submit"
+            className="w-full bg-yellow-400 text-black py-2 rounded hover:bg-yellow-500"
+          >
+            Submit Enquiry
+          </button>
+        </form>
+        <button
+          className="absolute top-2 right-2 text-gray-400"
+          onClick={() => setIsOpen(false)}
+        >
+          ×
+        </button>
+      </div>
+    </div>
+  );
 
   return (
     <section>
@@ -37,12 +157,17 @@ const Recruitment = () => {
             growth.
           </p>
           <div className="services-recruitment-buttons">
-            <button className="services-schedule-button">Schedule Now</button>
+            <button
+              className="services-schedule-button"
+              onClick={() => setIsOpen(true)}
+            >
+              Schedule Now →
+            </button>
             <button
               className="services-apply-button"
               onClick={handleApplyTalentClick}
             >
-              Apply As Talent
+              Apply As Talent →
             </button>
           </div>
         </div>
@@ -53,6 +178,9 @@ const Recruitment = () => {
           />
         </div>
       </div>
+
+      {/* Schedule Form */}
+      {isOpen && <ScheduleForm />}
 
       {/* Recruitment Procedure Section */}
       <div className="services-procedure-container">
@@ -187,8 +315,6 @@ const Recruitment = () => {
         </div>
       </div>
 
-      <div>Contact US </div>
-
       {/* Resources and Articles Section */}
       <div className="resources-articles-section">
         <h3 className="resources-heading">Resources</h3>
@@ -201,10 +327,10 @@ const Recruitment = () => {
               className="article-image"
             />
             <h3 className="article-title">
-              Maximizing Talent Acquisition in Indonesia: A Comprehensive Guide
+              Maximizing Talent Acquisition in india: A Comprehensive Guide
             </h3>
             <p className="article-description">
-              Learn key strategies for acquiring top talent in Indonesia, from
+              Learn key strategies for acquiring top talent in india, from
               recruitment tips to navigating local hiring practices.
             </p>
           </div>
@@ -215,11 +341,11 @@ const Recruitment = () => {
               className="article-image"
             />
             <h3 className="article-title">
-              Ensuring HR Compliance in Indonesia: What You Need to Know
+              Ensuring HR Compliance in india: What You Need to Know
             </h3>
             <p className="article-description">
               Discover the essential steps businesses must take to remain
-              compliant with Indonesia's labor laws and regulations.
+              compliant with india's labor laws and regulations.
             </p>
           </div>
           <div className="article">

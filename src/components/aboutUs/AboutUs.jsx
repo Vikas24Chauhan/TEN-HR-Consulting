@@ -125,22 +125,26 @@ function AboutUs() {
 
   return (
     <>
-      <div className="px-4 md:px-8 lg:px-16">
-        <div className="max-w-screen-2xl container mx-auto flex flex-col lg:flex-row">
+      <div className="px-4 md:px-6 lg:px-12">
+        <div className="max-w-screen-2xl container mx-auto flex flex-col lg:flex-row lg:gap-12">
           <div className="order-1 w-full lg:w-1/2">
-            <img src={banner} className="w-full h-auto pt-8 lg:pt-12" alt="About Us Banner" />
+            <img
+              src={banner}
+              className="w-full h-auto pt-6 lg:pt-10 max-w-md mx-auto" // Reduced width for the about1.png image
+              alt="About Us Banner"
+            />
           </div>
-          <div className="w-full order-2 lg:order-1 lg:w-1/2 mt-8 lg:mt-16">
-            <div className="space-y-6 lg:space-y-8">
+          <div className="w-full order-2 lg:order-1 lg:w-1/2 mt-6 lg:mt-10">
+            <div className="space-y-4 lg:space-y-6">
               <h3 className="font-bold text-base lg:text-lg">ABOUT US</h3>
-              <h1 className="text-2xl lg:text-4xl font-bold">
+              <h1 className="text-2xl lg:text-4xl font-bold text-left">
                 Empowering Businesses with Talent Solutions for India’s Growth
               </h1>
               <p className="text-base lg:text-lg">
-                At HR Consulting, we make it easier for businesses to thrive in India with our seamless hiring, PEO, and HR services. We connect you with the right local talent and handle the intricacies of employment regulations, so you can focus on what matters most—growing your business.
+              "At HR Consulting, we simplify business expansion in India by providing expert recruitment, PEO, and HR management services. Our team ensures compliance with local employment laws and connects you with skilled professionals, allowing you to concentrate on scaling your business effortlessly."
               </p>
               <button
-                className="btn btn-warning text-black px-6 lg:px-10 py-2 rounded-md hover:text-white hover:bg-yellow-600 duration-300 cursor-pointer mt-4 lg:mt-6"
+                className="btn btn-warning text-black px-4 lg:px-8 py-2 rounded-md hover:text-white hover:bg-yellow-600 duration-300 cursor-pointer mt-4 lg:mt-6"
                 onClick={() => setIsOpen(true)}
               >
                 Schedule Now <span className="font-bold">→</span>
@@ -154,27 +158,27 @@ function AboutUs() {
       <div className="px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row">
-            <div className="w-full lg:w-1/2 bg-blue-700 text-white p-6 sm:p-8 lg:p-12 rounded-lg">
+            <div className="w-full lg:w-1/2 bg-blue-700 text-white p-6 sm:p-8 lg:p-10 rounded-lg">
               <div className="space-y-4 sm:space-y-6">
                 <h2 className="text-2xl sm:text-3xl font-bold">Our Mission</h2>
                 <p className="text-sm sm:text-base">
-                  Recruitindo’s mission is to support businesses and entrepreneurs worldwide in establishing and growing their ventures in India.
+                "At HR Consulting, our mission is to empower businesses and entrepreneurs from around the globe in setting up and growing their operations in India.
                 </p>
                 <p className="text-sm sm:text-base">
                   We believe that welcoming more entrepreneurs to India benefits the country’s economy, and we are committed to making this process seamless.
                 </p>
                 <p className="text-sm sm:text-base">
-                  Our goal is to simplify hiring local Indian talent, creating a smooth experience that benefits both businesses and the local job market.
+                Our focus is on streamlining the process of hiring local talent, ensuring a hassle-free experience that benefits both companies and the Indian job market.
                 </p>
                 <p className="text-sm sm:text-base">
                   Understanding India’s regulatory landscape can be challenging, and that's why we're here—to make it easier for you to navigate.
                 </p>
                 <p className="text-sm sm:text-base">
-                  By simplifying this process, we aim to unlock new opportunities for businesses and contribute to the growth and success of the Indian market.
+                By easing this process, we open doors to new opportunities and contribute to the success of your business in India.
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-1/2 mt-6 lg:mt-0 lg:pl-6">
+            <div className="w-full lg:w-1/2  lg:mt-0 ">
               <img
                 src={missionImage}
                 className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -186,28 +190,26 @@ function AboutUs() {
       </div>
 
       {/* About Recruitindo Section */}
-      <div className="px-4 md:px-8 lg:px-16">
-        <div className="max-w-screen-2xl container mx-auto flex flex-col lg:flex-row">
+      <div className="px-4 md:px-6 lg:px-12 py-8 lg:py-16">
+        <div className="max-w-screen-2xl container mx-auto flex flex-col lg:flex-row lg:gap-12">
           <div className="order-1 w-full lg:w-1/2">
             <img
               src={aboutRecruitindo}
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="w-full h-auto rounded-lg shadow-lg max-w-md mx-auto" // Reduced width for the About Recruitindo.png image
               alt="Recruitindo platform overview"
             />
           </div>
-          <div className="w-full lg:w-1/2 flex items-center mt-8 lg:mt-0 lg:pl-6">
-            <div className="space-y-6 lg:space-y-8">
-              <h3 className="font-bold text-base lg:text-lg">ABOUT RECRUITINDO</h3>
-              <h1 className="text-2xl lg:text-3xl font-bold">
+          <div className="w-full lg:w-1/2 flex items-center mt-6 lg:mt-0 lg:pl-6">
+            <div className="space-y-4 lg:space-y-6">
+              <h3 className="font-bold text-base lg:text-lg">HR Consulting</h3>
+              <h1 className="text-2xl lg:text-3xl font-bold text-left">
                 Our platform unlocks the potential of global teams
               </h1>
               <p className="text-base lg:text-lg">
-                Welcome to Recruitindo — your strategic partner for business growth in India. 
-                We specialize in Employer of Record (EOR) services, recruitment solutions, and HR 
-                consulting to simplify your entry and expansion in the Indian market.
+              "Welcome to HR Consulting! We are your strategic partner for business growth in India. With a focus on Employer of Record (EOR) services, recruitment solutions, and HR consulting, we are dedicated to simplifying your entry and expansion into the Indian market. Our expertise helps businesses navigate the complexities of hiring and compliance, ensuring a smooth and successful journey."
               </p>
               <button
-                className="btn btn-warning text-black px-6 lg:px-10 py-2 rounded-md hover:text-white hover:bg-yellow-600 duration-300 cursor-pointer mt-4 lg:mt-6"
+                className="btn btn-warning text-black px-4 lg:px-8 py-2 rounded-md hover:text-white hover:bg-yellow-600 duration-300 cursor-pointer mt-4 lg:mt-6"
                 onClick={() => setIsOpen(true)}
               >
                 Schedule Now <span className="font-bold">→</span>
@@ -216,9 +218,8 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      
 
-      {/* Render Schedule Form */}
+      {/* Include the schedule form component */}
       <ScheduleForm />
     </>
   );

@@ -24,19 +24,24 @@ import PayrollProcessing from "./components/services/payrollProcessing/PayrollPr
 import PricingPayrollProcessing from "./components/pricing/payrollProcessing/PricingPayrollProcessing";
 import JobVacancies from "./components/jobVacancies/jobVacancies";
 import Apply from "./components/jobVacancies/Apply";
+import ContactForm from "./components/Contact/ContactForm";
+import ScrollToTop from './components/ScrollToTop';
+import ResourcesDetails from "./components/services/payrollProcessing/ResourcesDetails";
 
 function App() {
   return (
     <>
       <I18nextProvider i18n={i18n}>
         <BrowserRouter>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<AboutUs />} />
-            <Route path="/jobVacancies" element={<JobVacancies />} />
+            {/* <Route path="/jobVacancies" element={<JobVacancies />} /> */}
             <Route path="/contactUs" element={<ContactUs />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/resourcesdetails/:id" element={<ResourcesDetails />} />
 
             <Route path="/services/peo&eor" element={<PeoEor />} />
             <Route path="/services/recruitment" element={<Recruitment />} />
@@ -71,9 +76,11 @@ function App() {
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/applyy" element={<Apply />} />
+            <Route path="/FAQ" element={<FAQSection />} />
           </Routes>
         </BrowserRouter>
       </I18nextProvider>
+      <ContactForm />
       <Footer />
     </>
   );

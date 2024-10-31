@@ -1,0 +1,268 @@
+/* Hero Section */
+.section-hero {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.text-container h4 {
+  color: gray;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.text-container h1 {
+  color: #003366;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.text-container p {
+  color: gray;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #ffb400;
+  color: white !important;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e69a00;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  width: 70%;
+  height: 75%;
+  margin: 0 auto;
+}
+
+/* Phases Section */
+.section-phases {
+  width: 100%;
+  background-color: #003366;
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+}
+
+.section-phases h2 {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.phases-container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.phase {
+  width: 31%;
+  background-color: white;
+  color: #003366;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.phase h3 {
+  background-color: #ffb400;
+  color: #003366;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.phase h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.phase p {
+  margin-top: 10px;
+  color: gray;
+}
+
+/* Pricing Section */
+.quote-section {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.quote-content {
+  width: 50%;
+  background-color: #002a7a;
+  color: white;
+  padding: 2.5rem;
+  border-radius: 10px 0 0 10px;
+}
+
+.quote-content h3 {
+  font-size: 1.5rem;
+  color: #888;
+  padding-bottom: 1rem;
+}
+
+.quote-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quote-btn {
+  background-color: #f4a300;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quote-btn:hover {
+  background-color: #e69500;
+}
+
+.quote-description {
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+}
+
+.quote-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1.5rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .section-hero {
+    width: 90%;
+    padding: 2rem 0;
+  }
+
+  .text-container {
+    width: 60%;
+  }
+
+  .text-container h1 {
+    font-size: 2rem;
+  }
+
+  .image-container {
+    width: 40%;
+  }
+
+  .phases-container {
+    width: 90%;
+  }
+
+  .quote-content h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-container h1 {
+    font-size: 28px;
+  }
+
+  .text-container p {
+    font-size: 14px;
+  }
+
+  .image-container img {
+    height: 85%;
+    margin-bottom: 1rem;
+  }
+
+  .phases-container {
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .phase {
+    width: 45%;
+  }
+
+  .quote-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-hero {
+    flex-wrap: wrap-reverse;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 90%;
+  }
+
+  .text-container p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+  }
+
+  .section-phases {
+    padding: 2rem 1rem;
+  }
+
+  .section-phases h2 {
+    font-size: 1.25rem;
+  }
+
+  .phase {
+    width: 100%;
+  }
+
+  .quote-section {
+    flex-wrap: wrap;
+  }
+
+  .quote-content {
+    width: 100%;
+    padding: 2.5rem 1rem;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .quote-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .quote-description {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+}

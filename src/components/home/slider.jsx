@@ -1,48 +1,47 @@
-
 import { useState, useEffect } from "react";
 import "./Home.css";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const slider = [
   {
-    image: "/src/assets/images/peo-eor.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/peo-eor.jpeg",
     title: "PEO & EOR",
     description:
-      "Ten Hr consulting is a leading Professional Employer Organization (PEO), Recruitment, and HR consulting firm in Indonesia.",
-    learnMoreLink: "https://recruitindo.com/peo-eor/",
+      "Ten Hr consulting is a leading Professional Employer Organization (PEO), Recruitment, and HR consulting firm in india.",
+    learnMoreLink: "http://localhost:5173/services/peo&eor",
   },
   {
-    image: "/src/assets/images/recruitment.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/recruitment.jpeg",
     title: "Recruitment",
     description:
       "We provide top-tier recruitment services to find the best talent for your business.",
     secondDescription:
       "Our approach is designed to match you with the right candidates.",
-    learnMoreLink: "https://recruitindo.com/recruitment/",
+    learnMoreLink: "http://localhost:5173/services/recruitment",
   },
   {
-    image: "/src/assets/images/hr-consulting.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/hr-consulting.jpeg",
     title: "HR Consulting",
     description:
       "Our HR consulting services help you streamline your HR processes and improve employee engagement.",
     secondDescription: "We specialize in compliance and efficiency.",
-    learnMoreLink:"https://recruitindo.com/hr-consulting/",
+    learnMoreLink: "http://localhost:5173/services/hrConsulting",
   },
   {
-    image: "/src/assets/images/managed-services.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/managed-services.jpeg",
     title: "Managed Services",
     description:
       "We offer comprehensive managed services to optimize your HR functions.",
     secondDescription: "Focus on your core business while we manage the rest.",
-    learnMoreLink: "https://recruitindo.com/managed-services", // Added link for managed services
+    learnMoreLink: "http://localhost:5173/services/managedServices", // Added link for managed services
   },
   {
-    image: "/src/assets/images/payroll-procesing.jpeg",
+    image: "https://recruitindo.com/wp-content/uploads/2023/12/payroll-procesing.jpeg",
     title: "Payroll Processing",
     description:
       "Let us handle your payroll processing to ensure accuracy and compliance.",
     secondDescription: "We ensure timely and precise payroll management.",
-    learnMoreLink: "https://recruitindo.com/payroll-processing",
+    learnMoreLink: "http://localhost:5173/services/payrollProcessing",
   },
 ];
 
@@ -112,7 +111,7 @@ function Slider() {
                 item.learnMoreLink && window.open(item.learnMoreLink, "_blank")
               }
             >
-              {t('Learn More')} <span>→</span>
+              {t("Learn More")} <span>→</span>
             </button>
           </div>
         ))}

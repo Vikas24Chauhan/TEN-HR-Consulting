@@ -15,9 +15,9 @@
 }
 
 .pricing-card-content h2 {
-  font-size: 1rem;
+  font-size: 18px;
   opacity: 80%;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .pricing-card-content h1 {
@@ -26,16 +26,21 @@
   line-height: 1.2;
   color: white;
   text-align: start;
+  padding-top: 1.25rem;
 }
 
 .contact-button {
-  /* width: 10%; */
-  background-color: #fb923c;
-  color: #1e3a8a;
+  background-color: #e79522;
+  color: white;
   font-weight: 600;
   padding: 0.5rem 1rem;
+  margin-top: 2rem;
   border-radius: 0.25rem;
   text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #db8d21;
 }
 
 .pricing-info {
@@ -83,6 +88,10 @@
     font-size: 1.5rem;
   }
 
+  .contact-button {
+    width: 30%;
+  }
+
   .pricing-info {
     width: 100%;
     border-radius: 0 0 1rem 1rem;
@@ -102,6 +111,12 @@
 }
 
 @media (max-width: 480px) {
+  .contact-button {
+    width: 52%;
+    font-size: 15px;
+    padding: 0.5rem 0.5rem;
+  }
+
   .pricing-info {
     padding: 2rem 1rem;
   }

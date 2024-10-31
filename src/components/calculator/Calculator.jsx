@@ -69,7 +69,7 @@ const Calculator = () => {
             <div className="form-group">
                 <label>Annual Salary</label>
                 <div className="input-group">
-                    <span>Rp.</span>
+                    <span>Rs.</span>
                     <input
                         type="number"
                         value={salary}
@@ -96,115 +96,115 @@ const Calculator = () => {
             <div className="results">
                 <div className="result-card">
                     <h3>JHT Employee</h3>
-                    <h3>Rp{jhtEmployee}</h3>
+                    <h3>Rs{jhtEmployee}</h3>
                     <p>Calculate JHT contributions: 5.7% of basic salary and fixed allowances, with employees paying 2%.</p>
                 </div>
                 <div className="result-card">
                     <h3>JP Employee</h3>
-                    <h3>Rp{jpEmployee}</h3>
+                    <h3>Rs{jpEmployee}</h3>
                     <p>JP (Pension Guarantee) contributions are made by both the employer and employee, deducted monthly from salary. The contribution is calculated based on basic salary and fixed allowances. Employee bear 1% of the Pension Guarantee (JP) premium.</p>
                 </div>
                 <div className="result-card">
                     <h3>BPJS Employee</h3>
-                    <h3>Rp{bpjsEmployee}</h3>
-                    <p>BPJS Kesehatan is a health protection and insurance program for Indonesian citizens, including company employees, funded by 5% of the monthly salary, with 4% covered by the employer.</p>
+                    <h3>Rs{bpjsEmployee}</h3>
+                    <p>BPJS Kesehatan is a health protection and insurance program for indian citizens, including company employees, funded by 5% of the monthly salary, with 4% covered by the employer.</p>
                 </div>
                 <div className="result-card">
                     <h3>JHT Company</h3>
-                    <h3>Rp{jhtCompany}</h3>
+                    <h3>Rs{jhtCompany}</h3>
                     <p>Calculate JHT contributions: 5.7% of basic salary and fixed allowances, with employer paying 3.7%.</p>
                 </div>
                 <div className="result-card">
                     <h3>JP Company</h3>
-                    <h3>Rp{jpCompany}</h3>
+                    <h3>Rs{jpCompany}</h3>
                     <p>JP (Pension Guarantee) contributions are made by both the employer and employee, deducted monthly from salary. The contribution is calculated based on basic salary and fixed allowances. Employers bear 2% of the Pension Guarantee (JP) premium.</p>
                 </div>
                 <div className="result-card">
                     <h3>JKK Company</h3>
-                    <h3>Rp{jkkCompany}</h3>
+                    <h3>Rs{jkkCompany}</h3>
                     <p>Work Accident Insurance (JKK) is a protection provided by BPJS Ketenagakerjaan for employees against workplace accident risks.</p>
                 </div>
                 <div className="result-card">
                     <h3>JKM Company</h3>
-                    <h3>Rp{jkmCompany}</h3>
+                    <h3>Rs{jkmCompany}</h3>
                     <p>JKM (Death Benefit) is a BPJS Ketenagakerjaan program offering cash benefits to beneficiaries if a participant dies of non-work-related causes. Companies fully cover the JKM premium, set at 0.30% of the monthly wage for salaried workers."</p>
                 </div>
                 <div className="result-card">
                     <h3>BPJS Company</h3>
-                    <h3>Rp{bpjsCompany}</h3>
-                    <p>BPJS Kesehatan is a health protection and insurance program for Indonesian citizens, including company employees, funded by 5% of the monthly salary, with 1% covered by the employee.</p>
+                    <h3>Rs{bpjsCompany}</h3>
+                    <p>BPJS Kesehatan is a health protection and insurance program for indian citizens, including company employees, funded by 5% of the monthly salary, with 1% covered by the employee.</p>
                 </div>
                 <div className="result-card">
                     <h3>Biaya Jabatan</h3>
-                    <h3>Rp{biayaJabatan}</h3>
-                    <p>"Occupational Expenses" or "Position Expenses" are deductible amounts in the Indonesian tax system, representing a portion of an employee's income exempt from tax, to account for job-related costs.</p>
+                    <h3>Rs{biayaJabatan}</h3>
+                    <p>"Occupational Expenses" or "Position Expenses" are deductible amounts in the indian tax system, representing a portion of an employee's income exempt from tax, to account for job-related costs.</p>
                 </div>
                 <div className="result-card">
                     <h3>Gross Salary</h3>
-                    <h3>Rp{grossSalary}</h3>
+                    <h3>Rs{grossSalary}</h3>
                     <p>Gross Salary refers to the total income earned by an employee before any deductions are made.</p>
                 </div>
                 <div className="result-card">
                     <h3>Net Salary</h3>
-                    <h3>Rp{netSalary}</h3>
+                    <h3>Rs{netSalary}</h3>
                     <p>The amount of income an employee takes home after all deductions are made from the gross salary.</p>
                 </div>
                 <div className="result-card">
                     <h3>Annualize</h3>
-                    <h3>Rp{annualize}</h3>
-                    <p>Annual salary refers to the total amount of money an employee earns from their job in a year, excluding additional bonuses or overtime pay.</p>
+                    <h3>Rs{annualize}</h3>
+                    <p>Annual salary refers to the total amount of price an employee earns from their job in a year, excluding additional bonuses or overtime pay.</p>
                 </div>
                 <div className="result-card">
                     <h3>PTKP</h3>
-                    <h3>Rp{ptkp}</h3>
-                    <p>Penghasilan Tidak Kena Pajak (PTKP) refers to Non-Taxable Income in Indonesia. It is the threshold below which an individual's income is not subject to income tax (Pajak Penghasilan or PPh).</p>
+                    <h3>Rs{ptkp}</h3>
+                    <p>Penghasilan Tidak Kena Pajak (PTKP) refers to Non-Taxable Income in india. It is the threshold below which an individual's income is not subject to income tax (Pajak Penghasilan or PPh).</p>
                 </div>
                 <div className="result-card">
                     <h3>PKP</h3>
-                    <h3>Rp{pkp}</h3>
-                    <p>Penghasilan Kena Pajak (PKP) in Indonesia refers to Taxable Income. It is the portion of an individual's or entity's income that is subject to income tax. PKP is determined after making permissible deductions and adjustments to the Gross Income.</p>
+                    <h3>Rs{pkp}</h3>
+                    <p>Penghasilan Kena Pajak (PKP) in india refers to Taxable Income. It is the portion of an individual's or entity's income that is subject to income tax. PKP is determined after making permissible deductions and adjustments to the Gross Income.</p>
                 </div>
                 <div className="result-card">
                     <h3>Round PKP</h3>
-                    <h3>Rp{roundPkp}</h3>
-                    <p>PKP (Penghasilan Kena Pajak) is the income amount that is subject to tax in Indonesia, calculated by deducting allowable deductions from the gross income.
+                    <h3>Rs{roundPkp}</h3>
+                    <p>PKP (Penghasilan Kena Pajak) is the income amount that is subject to tax in india, calculated by deducting allowable deductions from the gross income.
                     </p>
                 </div>
                 <div className="result-card">
                     <h3>TAX</h3>
-                    <h3>Rp{tax}</h3>
+                    <h3>Rs{tax}</h3>
                     <p>Income Tax that is a mandatory contribution levied on employees based on the income they earn.</p>
                 </div>
                 <div className="result-card">
                     <h3>WHT</h3>
-                    <h3>Rp{wht}</h3>
-                    <p>Withholding Tax (WHT) in Indonesia, commonly referred to as Pajak Potong or Pajak Pemotongan, is a tax deducted at source on certain types of transactions. The payer of the income is responsible for deducting and remitting the tax to the tax authorities before the funds are received by the payee.</p>
+                    <h3>Rs{wht}</h3>
+                    <p>Withholding Tax (WHT) in india, commonly referred to as Pajak Potong or Pajak Pemotongan, is a tax deducted at source on certain types of transactions. The payer of the income is responsible for deducting and remitting the tax to the tax authorities before the funds are received by the payee.</p>
                 </div>
                 <div className="result-card">
                     <h3>Take Home Pay</h3>
-                    <h3>Rp{takeHomepay}</h3>
+                    <h3>Rs{takeHomepay}</h3>
                     <p>Take-home pay, often referred to as net salary, is the amount of income that an employee actually receives after all deductions are made from the gross salary.</p>
                 </div>
                 <div className="result-card">
                     <h3>Total BPJSTK</h3>
-                    <h3>Rp{totalBpjstk}</h3>
-                    <p>BPJS Ketenagakerjaan (BPJSTK) is Indonesia's Employment Social Security Agency, offering workers key programs like JHT (Old-Age Benefits), JKK (Work Accident Insurance), JKM (Life Insurance), and JP (Pension Security) to ensure financial security during retirement, accidents at work, or family bereavement.</p>
+                    <h3>Rs{totalBpjstk}</h3>
+                    <p>BPJS Ketenagakerjaan (BPJSTK) is india's Employment Social Security Agency, offering workers key programs like JHT (Old-Age Benefits), JKK (Work Accident Insurance), JKM (Life Insurance), and JP (Pension Security) to ensure financial security during retirement, accidents at work, or family bereavement.</p>
                 </div>
                 <div className="result-card">
                     <h3>Total BPJS Kesehatan</h3>
-                    <h3>Rp{totalBpjskesehatan}</h3>
+                    <h3>Rs{totalBpjskesehatan}</h3>
                     <p>The contribution for BPJS Kesehatan participants is 5% of the monthly salary, with the employer covering 4% and the employee contributing 1%.</p>
                 </div>
                 <div className="result-card">
                     <h3>Total BPJS</h3>
-                    <h3>Rp{totalBpjs}</h3>
-                    <p>Total BPJS is the sum of contributions to Indonesia's employment and healthcare social security programs, covering both employer's and employee's payments for health, pension, and insurance benefits.</p>
+                    <h3>Rs{totalBpjs}</h3>
+                    <p>Total BPJS is the sum of contributions to india's employment and healthcare social security programs, covering both employer's and employee's payments for health, pension, and insurance benefits.</p>
                 </div>
 
             </div>
             <div className="result-card-end">
                     <h3>Cost To Company (Estimated)</h3>
-                    <h3>Rp{costTocompany}</h3>
+                    <h3>Rs{costTocompany}</h3>
                     <p>Cost to Company (CTC) refers to the total amount an employer spends on an employee in a year. It's not just the salary but encompasses all costs associated with employment.</p>
                 </div>
         </div>
@@ -212,3 +212,5 @@ const Calculator = () => {
 };
 
 export default Calculator;
+
+

@@ -31,11 +31,11 @@
   flex: 1;
 }
 
-.form-container {
+.frm-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 20px;
+  margin-top: 20%;
   flex-wrap: wrap;
 }
 
@@ -47,7 +47,6 @@
 
 .text-section {
   margin: 8%;
-  margin-left: 5rem;
   flex: 1 1 60%; /* Make sure text section doesn't shrink */
 }
 
@@ -89,7 +88,7 @@
   margin-right: 10px;
 }
 .form-background {
-  flex: 1 1 35%;
+  flex: 1 1 40%;
   max-width: 600px;
   position: relative;
   z-index: 1;
@@ -103,6 +102,7 @@
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
 
 .form-row {
@@ -128,6 +128,8 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
+  top: 100%;
+  z-index: 1;
 }
 
 textarea {
@@ -138,7 +140,7 @@ textarea {
   width: 100%;
 }
 
-.submit-button {
+.submit-btn {
   padding: 10px 15px;
   background-color: orange;
   color: #fff;
@@ -204,7 +206,7 @@ textarea {
 /* Add hover effects for buttons */
 .prev:hover,
 .next:hover {
-  background-color: rgba(255, 255, 255, 1); /* Solid background on hover */
+  background-color: none; /* Solid background on hover */
   transition: background-color 0.3s; /* Smooth transition for hover */
 }
 .services-section {
@@ -456,9 +458,7 @@ textarea {
   padding-top: 25px;
   font-weight: bold;
 }
-/* .compliance-image-container {
-  margin: 20px;
-} */
+
 .compliance-icon {
   padding-bottom: 20px;
 }
@@ -507,7 +507,7 @@ textarea {
 .icon-text-row {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  gap: 20px; /* Space between the two columns */
+  gap: 0px; /* Space between the two columns */
 }
 
 .icon-text-column {
@@ -571,8 +571,7 @@ textarea {
 /* Media Queries for Responsive Design */
 
 /* For screens less than 768px */
-/* For screens less than 768px */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .slider-container {
     overflow-x: auto; /* Enable horizontal scrolling */
     scroll-snap-type: x mandatory; /* Snap to each slide when scrolling */
@@ -754,7 +753,8 @@ textarea {
     margin-bottom: 10px;
   }
 
-  .partner-expertise {
+  .partner-expertise,
+  .compliance-expertise {
     font-size: 1.35rem;
     padding: 0;
     text-align: start;
@@ -773,14 +773,16 @@ textarea {
     width: 100%;
   }
   .partner-description {
-    text-align: justify;
+    text-align: left;
     max-width: 500px; /* Makes the text block narrower to look better on mobile */
     line-height: 1.5; /* Improves readability */
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 10px;
   }
-
+  .partner-description p {
+    margin: 0; /* Removes extra space between paragraphs */
+  }
   .cost-icon,
   .partner-icon {
     width: 100%;
@@ -843,16 +845,36 @@ textarea {
     padding-bottom: 10px;
   }
   .partner-description,
-  .compliance-description,
-  .cost-description {
+  .compliance-description {
     font-size: 16px;
-    margin-left: -15px;
+    margin-left: -20px; /* Increase the negative margin */
     max-width: 500px;
     width: 350px;
     padding-right: 15px;
   }
+  .cost-description {
+    padding-left: 20px;
+  }
   .partner-content {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+  }
+  .partner-image-container img {
+    margin-top: 7rem;
+  }
+  .services-section {
+    margin: 10px;
+    width: 100%;
+  }
+  .compliance-image-container img {
+    margin-top: 10rem;
+  }
+  .cost-image-container img {
+    margin-top: 8rem;
+  }
+  .cost-left {
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -890,16 +912,44 @@ textarea {
     padding-bottom: 10px;
   }
   .partner-description,
-  .compliance-description,
-  .cost-description {
-    font-size: 16px;
-    margin-left: -15px;
+  .compliance-description {
+    font-size: 12px;
+    margin-left: -60px;
     max-width: 500px;
-    width: 350px;
-    padding-right: 15px;
+    width: 280px;
+    height: auto;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .cost-description {
+    font-size: 12px;
+    margin-left: -10px;
+    max-width: 500px;
+    width: 280px;
+    height: auto;
+    padding-right: 10px;
+    align-items: center;
   }
   .partner-content {
     flex-direction: row;
+  }
+  .partner-expertise,
+  .cost-expertise,
+  .compliance-expertise {
+    font-size: 16px;
+    position: relative;
+    left: -60px; /* Shift to the left */
+    margin: 10px auto;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  .partner-image-container img,
+  .compliance-image-container img,
+  .cost-image-container img {
+    width: 300px; /* Full width of the container */
+    height: 290px; /* Maintain aspect ratio */
+    object-fit: fill; /* Ensure images cover the area without distortion */
+    max-height: 100%; /* Limit height to prevent overflow */
   }
 }
 @media only screen and (min-width: 800px) and (max-width: 1279px) {
@@ -937,15 +987,38 @@ textarea {
     padding-bottom: 10px;
   }
   .partner-description,
-  .compliance-description,
-  .cost-description {
+  .compliance-description {
     font-size: 16px;
-    margin-left: -15px;
+    margin-left: -50px;
     max-width: 500px;
     width: 350px;
     padding-right: 15px;
   }
+  .cost-expertise {
+    font-size: 22px;
+    position: relative;
+    left: -50px; /* Shift to the left */
+    margin: 10px auto;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  .partner-expertise,
+  .compliance-expertise {
+    left: -50px;
+    font-size: 25px;
+    position: relative;
+  }
+
   .partner-content {
     flex-direction: row;
+  }
+}
+/* New Media Query for 884px x 1104px */
+@media only screen and (min-width: 884px) and (max-width: 884px) and (min-height: 1104px) and (max-height: 1104px) {
+  .main-container {
+    padding: 30px;
+  }
+  .form-container {
+    width: 85%;
   }
 }
