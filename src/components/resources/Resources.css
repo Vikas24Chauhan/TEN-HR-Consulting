@@ -116,6 +116,7 @@
   }
   .resource-card-section {
     width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -125,7 +126,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .resource-header {
     padding-left: 10px;
   }

@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ServicesPEO1 from "../../../assets/images/ServicesPEO1.jpg";
@@ -62,33 +61,11 @@ export default function ResourcesDetails() {
         <img src={resource.img} alt={resource.title} className="resource-img" />
         <h2>{resource.title}</h2>
         <p>{resource.text}</p>
-        <div className="resource-extra-info">
-        </div>
+        <div className="resource-extra-info"></div>
         <button onClick={() => navigate(-1)} className="back-button">
-        {t("Back to Resources")}
-      </button>
+          {t("Back to Resources")}
+        </button>
       </div>
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

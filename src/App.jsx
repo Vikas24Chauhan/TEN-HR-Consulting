@@ -25,8 +25,9 @@ import PricingPayrollProcessing from "./components/pricing/payrollProcessing/Pri
 import JobVacancies from "./components/jobVacancies/jobVacancies";
 import Apply from "./components/jobVacancies/Apply";
 import ContactForm from "./components/Contact/ContactForm";
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from "./components/ScrollToTop";
 import ResourcesDetails from "./components/services/payrollProcessing/ResourcesDetails";
+import ResourcesInfo from "./components/resources/ResourcesInfo";
 
 function App() {
   return (
@@ -41,8 +42,11 @@ function App() {
             {/* <Route path="/jobVacancies" element={<JobVacancies />} /> */}
             <Route path="/contactUs" element={<ContactUs />} />
             <Route path="/resources" element={<Resources />} />
-            <Route path="/resourcesdetails/:id" element={<ResourcesDetails />} />
-
+            <Route
+              path="/resourcesdetails/:id"
+              element={<ResourcesDetails />}
+            />
+            <Route path="/resourceInfo/:id" element={<ResourcesInfo />} />
             <Route path="/services/peo&eor" element={<PeoEor />} />
             <Route path="/services/recruitment" element={<Recruitment />} />
             <Route path="/services/hrConsulting" element={<HrConsulting />} />

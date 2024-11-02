@@ -2,6 +2,7 @@ import "./Resources.css";
 import { cardLists } from "../../assets/data/cardLists";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Resources = () => {
   const { t } = useTranslation();
@@ -41,26 +42,30 @@ const Resources = () => {
       <section className="resource-section">
         <div className="resource-card-section">
           {currentCards.map((ele, index) => (
-            <div key={index} className="resource-card">
-              <img src={ele.img} alt="" />
-              <div className="card-btn">
-                <button className="article-btn"> {t(ele.article)} </button>
-                {ele.resources === " " ? (
-                  " "
-                ) : (
-                  <>
-                    
-                    <button className="resources-btn">
-                      {t(ele.resources)}
-                    </button>
-                  </>
-                )}
+            <Link
+              key={index}
+              className="resource-card"
+              to={`/resourceInfo/${ele.id}`}>
+              <div>
+                <img src={ele.img} alt="" />
+                <div className="card-btn">
+                  <button className="article-btn"> {t(ele.article)} </button>
+                  {ele.resources === " " ? (
+                    " "
+                  ) : (
+                    <>
+                      <button className="resources-btn">
+                        {t(ele.resources)}
+                      </button>
+                    </>
+                  )}
+                </div>
+                <div className="card-text">
+                  <h4>{t(ele.title)} </h4>
+                  <p> {t(ele.text)}</p>
+                </div>
               </div>
-              <div className="card-text">
-                <h4>{t(ele.title)} </h4>
-                <p> {t(ele.text)}</p>
-              </div>
-            </div>
+            </Link>
           ))}
         </div>
         <div className="pages">

@@ -1,14 +1,15 @@
-   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, body {
-    height: 100%;
-  }
-  
-   .resource-details {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.resource-details {
   display: flex;
   padding: 0px 20px 20px 20px;
   min-height: 80vh;
@@ -47,7 +48,7 @@
   width: 100%;
   height: auto;
   max-height: 300px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -86,13 +87,4 @@ p {
 .resource-article-btn:hover,
 .resource-type-btn:hover {
   background-color: #0056b3;
-} 
-
-
-
-
-
-
-
-
-
+}
