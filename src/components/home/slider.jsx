@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const slider = [
   {
     image: "https://recruitindo.com/wp-content/uploads/2023/12/peo-eor.jpeg",
-    title: "PEO & EOR",
+    title: "PEO",
     description:
       "Ten Hr consulting is a leading Professional Employer Organization (PEO), Recruitment, and HR consulting firm in india.",
     learnMoreLink: "http://localhost:5173/services/peo&eor",

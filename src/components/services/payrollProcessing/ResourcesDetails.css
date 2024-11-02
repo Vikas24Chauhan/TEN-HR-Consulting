@@ -47,7 +47,11 @@ body {
 .resource-img {
   width: 100%;
   height: auto;
+<<<<<<< HEAD
   max-height: 300px;
+=======
+  max-height: 600px;
+>>>>>>> 1565fc2884cbf9bd2247a99934720f5dd4a1aafc
   object-fit: contain;
   border-radius: 10px;
   margin-bottom: 20px;

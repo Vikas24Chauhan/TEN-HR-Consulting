@@ -19,7 +19,7 @@ function Home() {
     countryCode: "+91 IN",
     phone: "",
     company: "",
-    inquiry: "PEO & EoR",
+    inquiry: "PEO",
     message: "",
   });
   const [formStatus, setFormStatus] = useState(null);
@@ -74,7 +74,7 @@ function Home() {
           countryCode: "+91 IN",
           phone: "",
           company: "",
-          inquiry: "PEO & EoR",
+          inquiry: "PEO",
           message: "",
         });
       } else {
@@ -255,7 +255,7 @@ function Home() {
                       onChange={handleChange}
                       required
                     >
-                      <option value='PEO & EoR'>{t("PEO & EoR")}</option>
+                      <option value='PEO'>{t("PEO")}</option>
                       <option value='Recruitment'>{t("Recruitment")}</option>
                       <option value='HR Consulting'>
                         {t("HR Consulting")}
@@ -293,7 +293,7 @@ function Home() {
 
       <div className='services-section'>
         <h2>{t("WHAT WE DO")}</h2>
-        <h3>{t("Comprehensive HR and PEO/EoR solutions")}</h3>
+        <h3>{t("Comprehensive HR and PEO Solutions")}</h3>
         <div className='slider'>
           <Slider />
         </div>

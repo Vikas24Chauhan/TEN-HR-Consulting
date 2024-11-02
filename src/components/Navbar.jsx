@@ -117,7 +117,7 @@ const Navbar = ({ isSidebarOpen, handleToggleSidebar }) => {
                     }
                     onClick={() => handleLinkClick("services")}
                   >
-                    {t("PEO & EoR")}
+                    {t("PEO")}
                   </NavLink>
                   <NavLink
                     to="/services/recruitment"
@@ -195,7 +195,7 @@ const Navbar = ({ isSidebarOpen, handleToggleSidebar }) => {
                     }
                     onClick={() => handleLinkClick("pricing")}
                   >
-                    {t("PEO & EoR")}
+                    {t("PEO")}
                   </NavLink>
                   <NavLink
                     to="/pricing/recruitment"
@@ -361,7 +361,7 @@ const Navbar = ({ isSidebarOpen, handleToggleSidebar }) => {
                     }
                     onClick={() => handleLinkClick("mobileServices", true)}
                   >
-                    {t("PEO & EoR")}
+                    {t("PEO")}
                   </NavLink>
                   <NavLink
                     to="/services/recruitment"
@@ -438,7 +438,7 @@ const Navbar = ({ isSidebarOpen, handleToggleSidebar }) => {
                     }
                     onClick={() => handleLinkClick("mobilePricing", true)}
                   >
-                    {t("PEO & EoR")}
+                    {t("PEO")}
                   </NavLink>
                   <NavLink
                     to="/pricing/recruitment"
