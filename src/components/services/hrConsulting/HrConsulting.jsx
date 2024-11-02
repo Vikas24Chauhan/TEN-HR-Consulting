@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next"; // Import the translation hook
 import { bodyList } from "../../../assets/data/bodyList";
-import { ConsultingPrice } from "../../../assets/data/ConsultingPrice";
+import { ConsultingPrice } from "../../../assets/data/ConsultingPrice"; 
 import "./HrConsulting.css";
 import rightArrow from "../../../assets/images/right-arrow.svg";
 import { useNavigate } from 'react-router-dom';
@@ -15,6 +15,9 @@ function HrConsulting() {
   const handleMoreResourcesClick = () => {
     navigate("/resources"); // Navigate to the resources page
   };
+  // const navigateToDetails = (id) => {
+  //   navigate(`/resourcesdetails/${id}`);
+  // };
 
   return (
     <div className="Body">

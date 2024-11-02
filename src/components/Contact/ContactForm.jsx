@@ -12,7 +12,7 @@ function ContactForm() {
         countryCode: "+91 IN",
         phone: "",
         company: "",
-        inquiry: "PEO & EoR",
+        inquiry: "PEO",
         message: "",
     });
     const [formStatus, setFormStatus] = useState(null);
@@ -170,7 +170,7 @@ function ContactForm() {
                     countryCode: "+91 IN",
                     phone: "",
                     company: "",
-                    inquiry: "PEO & EoR",
+                    inquiry: "PEO",
                     message: "",
                 });
             } else {
@@ -274,7 +274,7 @@ function ContactForm() {
                                 onChange={handleChange}
                                 required
                             >
-                                <option value='PEO & EoR'>{t("PEO & EoR")}</option>
+                                <option value='PEO'>{t("PEO")}</option>
                                 <option value='Recruitment'>{t("Recruitment")}</option>
                                 <option value='HR Consulting'>{t("HR Consulting")}</option>
                                 <option value='Payroll Payment'>{t("Payroll Payment")}</option>

@@ -46,8 +46,8 @@
 .resource-img {
   width: 100%;
   height: auto;
-  max-height: 300px;
-  object-fit: cover;
+  max-height: 600px;
+  object-fit: contain;
   border-radius: 10px;
   margin-bottom: 20px;
 }

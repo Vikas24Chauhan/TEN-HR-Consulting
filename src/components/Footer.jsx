@@ -38,7 +38,7 @@ const Footer = () => {
     <l2>Services</l2>
     <br />
     <br />
-    <li><a href="/services/peo&eor">PEO & EoR</a></li>
+    <li><a href="/services/peo&eor">PEO</a></li>
     <li><a href="/services/recruitment">Recruitment</a></li>
     <li><a href="/services/hrConsulting">HR Consulting</a></li>
     <li><a href="/services/payrollProcessing">Payroll Processing</a></li>

@@ -67,10 +67,10 @@ function PeoEor() {
       {/* Main Section */}
       <div className="peo-main">
         <div className="peo-main-image">
-          <img src={peoMainImage} alt="Peo & Eor main image" />
+          <img src={peoMainImage} alt="PEO main image" />
         </div>
         <div className="peo-main-contant">
-          <h2>{t("PEO & EOR")}</h2>
+          <h2>{t("PEO")}</h2>
           <h1>{t("Engage Workforce in India Without Company Registration")}</h1>
           <p>
             {t(
@@ -85,8 +85,8 @@ function PeoEor() {
 
       {/* Solution Section */}
       <div className="peo-solution">
-        <h2>{t("PEO & EOR")}</h2>
-        <h1>{t(`Advantages of Choosing Recruitindo's PEO/EOR Solutions`)}</h1>
+        <h2>{t("PEO")}</h2>
+        <h1>{t(`Advantages of Choosing Recruitindo's PEO Solutions`)}</h1>
         <div className="peo-solution-cards">
           {peoSolutions.map((data) => (
             <div key={data.id} className="peo-solution-card">
@@ -100,8 +100,8 @@ function PeoEor() {
 
       {/* Benefits Section */}
       <div className="peo-benefit">
-        <h2>{t("PEO & EOR")}</h2>
-        <h1>{t(`Benefits of Using Recruitindo's PEO / EOR Service`)}</h1>
+        <h2>{t("PEO")}</h2>
+        <h1>{t(`Benefits of Using Recruitindo's PEO Service`)}</h1>
         <div className="peo-benefit-cards">
           {peoBenefits.map((data) => (
             <div key={data.id} className="peo-benefit-card">
