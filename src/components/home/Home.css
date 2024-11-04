@@ -492,6 +492,7 @@ textarea {
 }
 
 .one-stop-description {
+  color: white;
   margin-bottom: 20px; /* Add spacing below the description */
   padding-top: 20px;
   line-height: 1.8;
