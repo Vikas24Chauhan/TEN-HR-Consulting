@@ -26,7 +26,7 @@ export default function Resources_peo() {
             id: 1,
             img: ServicesPEO2,
             title: t(
-                "Using PEO/ s to Manage Remote Teams in India: Crucial Tools and Strategies"
+                "Using PEO to Manage Remote Teams in India: Crucial Tools and Strategies"
             ),
             text: t(
                 "Overview In the era of digital change and globalization, the capacity to efficiently lead remote teams."
