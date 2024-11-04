@@ -23,6 +23,9 @@ const Recruitment = () => {
   const handleUploadCVClick = () => {
     navigate("/applyTalent");
   };
+  const navigateToDetails = (id) => {
+    navigate(`/resources_Re/${id}`);
+  };
 
   const handleMoreResourcesClick = () => {
     navigate("/resources");
@@ -319,7 +322,8 @@ const Recruitment = () => {
       <div className="resources-articles-section">
         <h3 className="resources-heading">Resources</h3>
         <h2 className="resources-title">Explore Our Insights & Guides</h2>
-        <div className="articles-container">
+        <div className="articles-container"
+          onClick={() => navigateToDetails(ele.id)}>
           <div className="article">
             <img
               src="https://recruitindo.com/wp-content/uploads/2024/01/financial-benefits-1024x688.jpeg"
