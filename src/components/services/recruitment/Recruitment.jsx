@@ -323,7 +323,8 @@ const Recruitment = () => {
         <h3 className="resources-heading">Resources</h3>
         <h2 className="resources-title">Explore Our Insights & Guides</h2>
         <div className="articles-container"
-          onClick={() => navigateToDetails(ele.id)}>
+          onClick={() => navigateToDetails(ele.id)}> 
+          {/*above one needs to corrected */}
           <div className="article">
             <img
               src="https://recruitindo.com/wp-content/uploads/2024/01/financial-benefits-1024x688.jpeg"
