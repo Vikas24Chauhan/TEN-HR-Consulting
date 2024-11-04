@@ -29,6 +29,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import ResourcesDetails from "./components/services/payrollProcessing/ResourcesDetails";
 import ResourcesInfo from "./components/resources/ResourcesInfo";
 import Resources_peo from "./components/services/peo&eor/Resources_peo";
+import Resources_Re from "./components/services/recruitment/Resources_Re";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
               path="/resourcesdetails/:id"
               element={<ResourcesDetails />}
             />
+             <Route path="/resources_Re/:id" element={<Resources_Re />} />
             <Route path="/resources_peo/:id" element={<Resources_peo />} />
             <Route path="/resourceInfo/:id" element={<ResourcesInfo />} />
             <Route path="/services/peo&eor" element={<PeoEor />} />
