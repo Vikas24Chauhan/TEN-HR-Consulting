@@ -22,6 +22,9 @@ function PeoEor() {
   const resourcesPage = () => {
     navigate("/resources");
   };
+   const navigateToDetails = (id) => {
+    navigate(`/resources_peo/${id}`);
+  };
 
   const peoResources = [
     {
@@ -165,7 +168,8 @@ function PeoEor() {
         <div className="peo-resource-cards">
           {peoResources.map((ele, index) => (
             <>
-              <div key={index} className="peo-resource-card">
+              <div key={index} className="peo-resource-card"
+                onClick={() => navigateToDetails(ele.id)}>
                 <img src={ele.img} alt="" />
                 <div className="peo-resource-card-btn">
                   <button className="peo-resource-article-btn">
