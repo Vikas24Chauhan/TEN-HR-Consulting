@@ -30,8 +30,8 @@ function PeoEor() {
     {
       id: 0,
       img: ServicesPEO1,
-      article: t("Articles"),
-      resources: t("Resources"),
+      // article: t("Articles"),
+      // resources: t("Resources"),
       title: t(
         "The Complete Handbook of Executive Search in India: Examining the Economic and Cultural Effects of Poor Hiring"
       ),
@@ -42,8 +42,8 @@ function PeoEor() {
     {
       id: 1,
       img: ServicesPEO2,
-      article: t("Articles"),
-      resources: t("Resources"),
+      // article: t("Articles"),
+      // resources: t("Resources"),
       title: t(
         "Using PEO/EOR Services to Manage Remote Teams in India: Crucial Tools and Strategies"
       ),
@@ -54,8 +54,8 @@ function PeoEor() {
     {
       id: 2,
       img: ServicesPEO3,
-      article: t("Articles"),
-      resources: t("Resources"),
+      // article: t("Articles"),
+      // resources: t("Resources"),
       title: t(
         "Strategic Executive Search Services for Leading Companies in India"
       ),
@@ -172,18 +172,18 @@ function PeoEor() {
                 onClick={() => navigateToDetails(ele.id)}>
                 <img src={ele.img} alt="" />
                 <div className="peo-resource-card-btn">
-                  <button className="peo-resource-article-btn">
+{/*                   <button className="peo-resource-article-btn">
                     {" "}
                     {ele.article}{" "}
-                  </button>
+                  </button> */}
                   {ele.resources === " " ? (
                     " "
                   ) : (
                     <>
                       {" "}
-                      <button className="peo-resources-btn">
+{/*                       <button className="peo-resources-btn">
                         {ele.resources}
-                      </button>
+                      </button> */}
                     </>
                   )}
                 </div>
