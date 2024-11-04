@@ -23,8 +23,8 @@ function PricingPeoEor() {
     {
       id: 0,
       img: PricingPEO1,
-      article: "Articles",
-      resources: " ",
+      // article: "Articles",
+      // resources: " ",
       title:
         "Using PEO/EOR Services to Manage Remote Teams in India: Crucial Tools and Strategies",
       text: "Overview The capacity to efficiently lead distant teams in the era of globalization and digital transformation.",
@@ -32,8 +32,8 @@ function PricingPeoEor() {
     {
       id: 1,
       img: PricingPEO2,
-      article: "Articles",
-      resources: " ",
+      // article: "Articles",
+      // resources: " ",
       title:
         "A Comprehensive Examination of Important Provisions: An In-Depth Look at Indian Labor Laws",
       text: "The difficulties of finding work in India, which is becoming a thriving economic hub in Southeast Asia.",
@@ -41,8 +41,8 @@ function PricingPeoEor() {
     {
       id: 2,
       img: PricingPEO3,
-      article: "Articles",
-      resources: " ",
+      // article: "Articles",
+      // resources: " ",
       title: "The Effect of Executive Placements on Indian Business Growth",
       text: "A thriving economy with enormous potential, India has emerged as a major location for corporate growth. As many.",
     },
@@ -88,18 +88,18 @@ function PricingPeoEor() {
               <div key={index} className="peo-resource-card">
                 <img src={ele.img} alt="" />
                 <div className="peo-resource-card-btn">
-                  <button className="peo-resource-article-btn">
+{/*                   <button className="peo-resource-article-btn">
                     {" "}
                     {t(ele.article)}{" "}
-                  </button>
+                  </button> */}
                   {ele.resources === " " ? (
                     " "
                   ) : (
                     <>
-                      ,{" "}
-                      <button className="peo-resources-btn">
+{/*                       ,{" "} */}
+{/*                       <button className="peo-resources-btn">
                         {t(ele.resources)}
-                      </button>
+                      </button> */}
                     </>
                   )}
                 </div>
