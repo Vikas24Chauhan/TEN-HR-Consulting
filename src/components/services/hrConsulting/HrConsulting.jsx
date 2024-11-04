@@ -18,6 +18,9 @@ function HrConsulting() {
   // const navigateToDetails = (id) => {
   //   navigate(`/resourcesdetails/${id}`);
   // };
+   const navigateToDetails = (id) => {
+    navigate(`/resources_hr/${id}`);
+  };
 
   return (
     <div className="Body">
@@ -155,7 +158,7 @@ function HrConsulting() {
         <h3 className="resources-heading">Resources</h3>
         <h2 className="resources-title">Explore Our Insights & Guides</h2>
         <div className="articles-container">
-          <div className="article">
+          <div className="article" onClick={() => navigateToDetails(0)}>
             <img
               src="https://recruitindo.com/wp-content/uploads/2024/01/financial-benefits-1024x688.jpeg"
               alt="Talent Acquisition Guide"
@@ -169,7 +172,7 @@ function HrConsulting() {
               recruitment tips to navigating local hiring practices.
             </p>
           </div>
-          <div className="article">
+          <div className="article" onClick={() => navigateToDetails(1)}>
             <img
               src="https://recruitindo.com/wp-content/uploads/2024/01/Peo-tech-company-1024x683.jpeg"
               alt="HR Compliance"
@@ -183,7 +186,7 @@ function HrConsulting() {
               compliant with India's labor laws and regulations.
             </p>
           </div>
-          <div className="article">
+          <div className="article" onClick={() => navigateToDetails(2)}>
             <img
               src="https://recruitindo.com/wp-content/uploads/2024/01/peo-provider-1024x683.jpeg"
               alt="Hiring in Southeast Asia"
