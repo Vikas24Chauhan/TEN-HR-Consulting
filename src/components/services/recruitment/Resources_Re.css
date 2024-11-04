@@ -49,8 +49,9 @@ body {
     height: auto;
     max-height: 300px;
     object-fit: contain;
-    border-radius: 10px;
+    border-radius: 10px !important;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h2 {
