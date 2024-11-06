@@ -39,18 +39,19 @@
 }
 
 .feature-box {
-  padding: 20px;
+  padding: 25px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 220px;
+  height: 240px;
 }
 
 .feature-box h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   font-weight: bold;
+
 }
 
 .feature-box p {
@@ -59,8 +60,18 @@
 }
 
 .blue {
+  padding: 13px;
   background-color: #1a237e;
-  color: white;
+  color: white !important;
+}
+
+.blue h2 {
+  color: #fff;
+  padding-top: 18px;
+}
+
+.blue p {
+  color: #fff;
 }
 
 .gray {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import banner from '../../assets/images/about1.png';
 import missionImage from "../../assets/images/mission1.png";
 import aboutRecruitindo from "../../assets/images/About Recruitindo.png";
+import "./AboutUs.css"
 
 function AboutUs() {
   const [isOpen, setIsOpen] = useState(false);
@@ -159,7 +160,7 @@ function AboutUs() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row">
             <div className="w-full lg:w-1/2 bg-blue-700 text-white p-6 sm:p-8 lg:p-10 rounded-lg">
-              <div className="space-y-4 sm:space-y-6">
+              <div className="OurMission">
                 <h2 className="text-2xl sm:text-3xl font-bold">Our Mission</h2>
                 <p className="text-sm sm:text-base">
                 "At HR Consulting, our mission is to empower businesses and entrepreneurs from around the globe in setting up and growing their operations in India.
