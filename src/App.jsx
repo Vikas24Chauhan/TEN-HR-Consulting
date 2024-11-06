@@ -43,7 +43,7 @@ function App() {
             <Route path="/contactUs" element={<ContactUs />} />
             <Route path="/resources" element={<Resources />} />
             <Route
-              path="/resourcesdetails/:id"
+              path="/resourcesDetails/:id"
               element={<ResourcesDetails />}
             />
             <Route path="/resourceInfo/:id" element={<ResourcesInfo />} />
@@ -58,7 +58,6 @@ function App() {
               path="/services/managedServices"
               element={<ManagedServices />}
             />
-
             <Route path="/pricing/peo&eor" element={<PricingPeoEor />} />
             <Route
               path="/pricing/recruitment"

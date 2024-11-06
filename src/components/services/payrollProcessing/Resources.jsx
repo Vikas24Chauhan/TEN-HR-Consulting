@@ -69,16 +69,13 @@ export default function ResourcesAndArticles() {
               key={ele.id}
               className="pay-resource-card"
               onClick={() => navigateToDetails(ele.id)}
-              style={{ cursor: "pointer" }}
-            >
+              style={{ cursor: "pointer" }}>
               <img src={ele.img} alt={ele.title} />
               <div className="pay-resource-card-btn">
                 {ele.resources === " " ? (
                   " "
                 ) : (
-                  <>
-                    {/* Add button or link if needed */}
-                  </>
+                  <>{/* Add button or link if needed */}</>
                 )}
               </div>
               <div className="pay-resource-card-text">

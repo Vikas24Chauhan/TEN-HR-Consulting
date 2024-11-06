@@ -48,18 +48,6 @@ const Resources = () => {
               to={`/resourceInfo/${ele.id}`}>
               <div>
                 <img src={ele.img} alt="" />
-                <div className="card-btn">
-                  <button className="article-btn"> {t(ele.article)} </button>
-                  {ele.resources === " " ? (
-                    " "
-                  ) : (
-                    <>
-                      <button className="resources-btn">
-                        {t(ele.resources)}
-                      </button>
-                    </>
-                  )}
-                </div>
                 <div className="card-text">
                   <h4>{t(ele.title)} </h4>
                   <p> {t(ele.text)}</p>

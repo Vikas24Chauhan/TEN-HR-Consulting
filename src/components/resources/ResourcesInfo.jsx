@@ -23,7 +23,17 @@ const ResourcesInfo = () => {
           />
           <h2>{resource.title}</h2>
           <p>{resource.text}</p>
-          <div className="resource-extra-info"></div>
+
+          <div className="resource-extra-info">
+            <h2>Introduction</h2>
+            <p> {resource.introduction}</p>
+            <h2>{resource.title2}</h2>
+            <p>{resource.para}</p>
+            <p> {resource.subPare}</p>
+            <h2>Conclusion</h2>
+            <p> {resource.conclusion}</p>
+          </div>
+          <br />
           <button onClick={() => navigate(-1)} className="back-button">
             {t("Back to Resources")}
           </button>

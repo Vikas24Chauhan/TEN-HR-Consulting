@@ -14,6 +14,10 @@ export default function ResourcesAndArticles() {
     navigate("/resources");
   };
 
+  const navigateToDetails = (id) => {
+    navigate(`/resourcesdetails/${id}`);
+  };
+
   const peoResources = [
     {
       id: 0,
@@ -33,7 +37,7 @@ export default function ResourcesAndArticles() {
       article: t("Articles"),
       resources: t("Resources"),
       title: t(
-        "Using PEO/EOR Services to Manage Remote Teams in India: Crucial Tools and Strategies"
+        "Using PEO/ s to Manage Remote Teams in India: Crucial Tools and Strategies"
       ),
       text: t(
         "Overview In the era of digital change and globalization, the capacity to efficiently lead remote teams."
@@ -60,31 +64,25 @@ export default function ResourcesAndArticles() {
         <h2>{t("Resources")}</h2>
         <h1>{t("Resources and Articles")}</h1>
         <div className="pay-resource-cards">
-          {peoResources.map((ele, index) => (
-            <>
-              <div key={index} className="pay-resource-card">
-                <img src={ele.img} alt="" />
-                <div className="pay-resource-card-btn">
-                  <button className="pay-resource-article-btn">
-                    {" "}
-                    {ele.article}{" "}
-                  </button>
-                  {ele.resources === " " ? (
-                    " "
-                  ) : (
-                    <>
-                      <button className="pay-resources-btn">
-                        {ele.resources}
-                      </button>
-                    </>
-                  )}
-                </div>
-                <div className="pay-resource-card-text">
-                  <h4>{ele.title} </h4>
-                  <p> {ele.text}</p>
-                </div>
+          {peoResources.map((ele) => (
+            <div
+              key={ele.id}
+              className="pay-resource-card"
+              onClick={() => navigateToDetails(ele.id)}
+              style={{ cursor: "pointer" }}>
+              <img src={ele.img} alt={ele.title} />
+              <div className="pay-resource-card-btn">
+                {ele.resources === " " ? (
+                  " "
+                ) : (
+                  <>{/* Add button or link if needed */}</>
+                )}
               </div>
-            </>
+              <div className="pay-resource-card-text">
+                <h4>{ele.title}</h4>
+                <p>{ele.text}</p>
+              </div>
+            </div>
           ))}
         </div>
         <button className="payResource-btn" onClick={resourcesPage}>

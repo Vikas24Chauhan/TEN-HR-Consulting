@@ -4,17 +4,11 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 .resource-details {
-  display: flex;
+  width: 100%;
   padding: 0px 20px 20px 20px;
-  min-height: 80vh;
-  background-color: #fefefe;
-  margin-top: 12px;
+  background-color: #ffffff;
+  margin-top: 15px;
 }
 
 .back-button {
@@ -34,49 +28,54 @@ body {
 
 .resource-details-card {
   width: 100%;
-  max-width: 1500px;
   height: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  text-align: center;
-  padding: 0 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px 20px 20px;
 }
 
-.resource-img {
-  width: 100%;
-  height: auto;
-<<<<<<< HEAD
-  max-height: 300px;
-=======
-  max-height: 600px;
->>>>>>> 1565fc2884cbf9bd2247a99934720f5dd4a1aafc
-  object-fit: contain;
-  border-radius: 10px;
+.resource-details-card img {
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
   margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 3.2em;
-  color: #333;
+.resource-details-card h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #002863;
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1em;
-  color: #555;
+  color: black;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
 .resource-extra-info {
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  justify-content: center;
   margin-top: 20px;
 }
-
+.resource-extra-info h2 {
+  color: black;
+  font-size: 1.5rem;
+}
+.resource-extra-info p {
+  font-size: 17px;
+  color: gray;
+}
 .resource-article-btn,
 .resource-type-btn {
   background-color: #007bff;
